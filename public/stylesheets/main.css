@@ -1,0 +1,13 @@
+footer select {
+  margin-bottom: 12px; }
+
+footer a {
+  color: #767676; }
+
+footer a:hover, footer a:focus, footer a:active {
+  color: #62B3B7;
+  text-decoration: none;
+  outline: none; }
+
+footer img {
+  width: 40px; }

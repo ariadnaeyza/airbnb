@@ -1,8 +1,18 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+@import "variable";
 
-a {
-  color: gray;
+footer{
+    select{
+        margin-bottom: 12px;
+    }
+    a{
+        color: $colorGrisOscuro;
+    }
+    a:hover, a:focus, a:active{
+        color: $colorTurquesa;
+        text-decoration: $none;
+        outline: $none;
+    }
+    img{
+        width: $iconoImagen;
+    }
 }

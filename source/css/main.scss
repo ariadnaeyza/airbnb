@@ -1,0 +1,12 @@
+header {
+    img{
+        width: 40px;
+    }
+    a{
+        color: black;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: transparent;
+        color: black;
+    }
+}

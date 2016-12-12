@@ -1,12 +1,14 @@
+@import "variable";
+
 header {
     img{
-        width: 40px;
+        width: $iconoImagen;
     }
     a{
-        color: black;
+        color: $colorNegro;
     }
     .nav>li>a:focus, .nav>li>a:hover {
         background-color: transparent;
-        color: black;
+        color: $colorNegro;
     }
 }

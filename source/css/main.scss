@@ -1,5 +1,18 @@
 @import "variable";
 
+header {
+    img{
+        width: $iconoImagen;
+    }
+    a{
+        color: $colorNegro;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: transparent;
+        color: $colorNegro;
+    }
+}
+
 footer{
     select{
         margin-bottom: 12px;

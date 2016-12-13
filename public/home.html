@@ -10,93 +10,458 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/vendor/ui/jquery-ui.css">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheets/main.css">
     </head>
     <body>
-         <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">
-                <img alt="Brand" src="" class="brand">
-              </a>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="" class="brand">
+                  </a>
+                </div>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group ui-widget input-1" id="input">
+                        <input type="text" id="tags" placeholder="Distrito"> 
+                    </div>
+                    <button type="submit" class="btn btn-default" id="btn">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Conviertete en anfitrion</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Registrate</a></li>
+                    <li><a href="#">Iniciar Sesiòn</a></li>
+                </ul>
             </div>
-            <form class="navbar-form navbar-left">
-                <div class="form-group ui-widget input-1" id="input">
-                    <input type="text" id="tags" placeholder="Distrito"> 
-                </div>
-                  <!--input google-->
-                <button type="submit" class="btn btn-default" id="btn">Submit</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Conviertete en anfitrion</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#">Registrate</a></li>
-                <li><a href="#">Iniciar Sesiòn</a></li>
-            </ul>
-        </div>
-    </nav>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-lg-7">
-                <br><br>
-                <div class="col-lg-3">
-                    <p>Fechas</p>   
-                </div>
-                <div class="col-lg-3">
-                    <input type="text" id="from" name="from">   
-                </div>
-                <div class="col-lg-3">
-                    <input type="text" id="to" name="to">   
-                </div>
-                <div class="col-lg-3" id="input">
-                    <label for="number">Huésped</label>
-                    <select name="number" id="number">
-                        <option>1</option>
-                        <option selected="selected">2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                    </select>
-                    <button>Buscar</button>  
-                </div>
-                 <hr>
-                <div class="divRango" >
+        </nav>
+        <!-- <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7">
+                    <br><br>
                     <div class="col-lg-3">
-                    <p>Tipo de Habitaciòn</p>
+                        <p>Fechas</p>   
                     </div>
-                    <div class="col-lg-3 padding">
-                        <img src="images/habitaciones/house.svg" class="imagen"><p class="inline">Casa Entera</p><input type="checkbox" name="Casa" >
+                    <div class="col-lg-3">
+                        <input type="text" id="from" name="from">   
                     </div>
-                    <div class="col-lg-3 padding">
-                        <img src="images/habitaciones/house.svg" class="imagen">
-                        <p class="inline">Habitacion Privada</p><input type="checkbox" name="Habitacion">
+                    <div class="col-lg-3">
+                        <input type="text" id="to" name="to">   
                     </div>
-                    <div class="col-lg-3 padding">
-                        <img src="images/habitaciones/house.svg" class="imagen">
-                        <p class="inline">Habitacion Compartida</p><input type="checkbox" name="Habitacion">
+                    <div class="col-lg-3" id="input">
+                        <label for="number">Huésped</label>
+                        <select name="number" id="number">
+                            <option>1</option>
+                            <option selected="selected">2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <button>Buscar</button>  
                     </div>
+                     <hr>
+                    <div class="divRango" >
+                        <div class="col-lg-3">
+                        <p>Tipo de Habitaciòn</p>
+                        </div>
+                        <div class="col-lg-3 padding">
+                            <img src="images/habitaciones/house.svg" class="imagen"><p class="inline">Casa Entera</p><input type="checkbox" name="Casa" >
+                        </div>
+                        <div class="col-lg-3 padding">
+                            <img src="images/habitaciones/house.svg" class="imagen">
+                            <p class="inline">Habitacion Privada</p><input type="checkbox" name="Habitacion">
+                        </div>
+                        <div class="col-lg-3 padding">
+                            <img src="images/habitaciones/house.svg" class="imagen">
+                            <p class="inline">Habitacion Compartida</p><input type="checkbox" name="Habitacion">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="divRango">
+                        <p>
+                            <label for="amount">Rango de precios:</label>
+                            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                        </p>
+                        <div id="slider-range"></div>
+                    </div>
+                    <hr>
                 </div>
-                <hr>
-                <div class="divRango">
-                    <p>
-                        <label for="amount">Rango de precios:</label>
-                        <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                    </p>
-                    <div id="slider-range"></div>
-                </div>
-                <hr>
-
+                <div class="col-lg-5">
+                    <div class="mapa" id="mapa"></div>
+                </div>    
             </div>
-            <div class="col-lg-5"></div>    
-        </div>
-    </section>
+        </section> -->
+        <section class="form">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="primer-container">
+                            <div class="secciones-fila">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="subtitle">
+                                            <label>Fechas</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <!-- <input type="text" name="checkin" class="btn-fichas" placeholder="Llegada"> -->
+                                                <button class="btn-fichas">Llegada</button>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <input type="text" name="checkout" class="btn-fichas" placeholder="Salida">
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="guests-select">
+                                                    <select class="btn-fichas">
+                                                        <option selected value="1">1 huésped</option>
+                                                        <option value="2">2 huespedes</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div>
+                            </div>
+                            <hr class="line-gray">
+                            <div class="secciones-fila">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="subtitle">
+                                            <label>Tipo de habitación</label>
+                                            <i class="glyphicon glyphicon-question-sign"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="div-gray">
+                                                    <div>
+                                                        <span>Casa entera</span>
+                                                    </div>
+                                                    <div>
+                                                        <input type="checkbox">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="div-gray">
+                                                    <div>
+                                                        <span>Habitación privada</span>
+                                                    </div>
+                                                    <div>
+                                                        <input type="checkbox">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="div-gray">
+                                                    <div>
+                                                        <span>Habitación compartida</span>
+                                                    </div>
+                                                    <div>
+                                                        <input type="checkbox">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="line-gray">
+                            <div class="secciones-fila">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="subtitle">
+                                            <label>Rango de precios</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="divRango">
+                                            <p>
+                                                <label for="amount">Rango de precios:</label>
+                                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                                            </p>
+                                            <div id="slider-range" class="slider-range"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="line-gray">
+                            <div class="secciones-fila">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="subtitle">
+                                            <label>Reserva inmediata</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="publicity">
+                                            <span>Anuncios que no requieren que el anfitrión acepte la solicitud.</span>
+                                            <label></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="line-gray">
+                        </div>
+                        <div class="container-advancedFilter">
+                            <div class="boton-advancedFilter">
+                                <div class="row">
+                                    <button class="btn-filtros">Filtros</button>
+                                </div>
+                                <hr class="line-gray">
+                                <div class="row">
+                                    <div class="text-right col-lg-7"><strong>Más de 300 alquileres</strong></div>
+                                </div>
+                            </div>
+                            <div class="option-advancedFilter">
+                                <div class="secciones-fila">
+                                    <div class="row">
+                                        <div class="col-lg-3"><p>Tamaño</p></div>
+                                        <div class="col-lg-9">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <select class="btn-fichas">
+                                                        <option value="Habitaciones" selected="selected">Habitaciones</option>
+                                                        <option value="1 Habitación">1 Habitación</option>
+                                                        <option value="2 Habitación">2 Habitación</option>
+                                                        <option value="3 Habitación">3 Habitación</option>
+                                                        <option value="4 Habitación">4 Habitación</option>
+                                                        <option value="5 Habitación">5 Habitación</option>
+                                                        <option value="6 Habitación">6 Habitación</option>
+                                                        <option value="7 Habitación">7 Habitación</option>
+                                                        <option value="8 Habitación">8 Habitación</option>
+                                                        <option value="9 Habitación">9 Habitación</option>
+                                                        <option value="10 Habitación">10 Habitación</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <select class="btn-fichas">
+                                                        <option value="Habitaciones" selected="selected">Baños</option>
+                                                        <option value="0-banos">0 Baños</option>
+                                                        <option value="0.5-banos">0.5 Baños</option>
+                                                        <option value="1-bano">1 Baño</option>
+                                                        <option value="1.5-banos">1.5 Baños</option>
+                                                        <option value="2-banos">2 Baños</option>
+                                                        <option value="2.5-banos">2.5 Baños</option>
+                                                        <option value="3-banos">3 Baños</option>
+                                                        <option value="3.5-banos">3.5 Baños</option>
+                                                        <option value="4-banos">4 Baños</option>
+                                                        <option value="4.5-banos">4.5 Baños</option>
+                                                        <option value="5-banos">5 Baños</option>
+                                                        <option value="5.5-banos">5.5 Baños</option>
+                                                        <option value="6-banos">6 Baños</option>
+                                                        <option value="6.5-banos">6.5 Baños</option>
+                                                        <option value="7-banos">7 Baños</option>
+                                                        <option value="7.5-banos">7.5 Baños</option>
+                                                        <option value="8-banos">8+ Baños</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <select class="btn-fichas">
+                                                        <option value="Camas" selected="selected">Camas</option>
+                                                        <option value="1-camas">1 Cama</option>
+                                                        <option value="2-camas">2 Camas</option>
+                                                        <option value="3-camas">3 Camas</option>
+                                                        <option value="4-camas">4 Camas</option>
+                                                        <option value="5-camas">5 Camas</option>
+                                                        <option value="6-camas">6 Camas</option>
+                                                        <option value="7-camas">7 Camas</option>
+                                                        <option value="8-camas">8 Camas</option>
+                                                        <option value="9-camas">9 Camas</option>
+                                                        <option value="10-camas">10 Camas</option>
+                                                        <option value="11-camas">11 Camas</option>
+                                                        <option value="12-camas">12 Camas</option>
+                                                        <option value="13-camas">13 Camas</option>
+                                                        <option value="14-camas">14 Camas</option>
+                                                        <option value="15-camas">15 Camas</option>
+                                                        <option value="16-camas">16+ Camas</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="line-gray">
+                                </div>
+                                <hr class="line-gray">
+                                <div class="secciones-fila">
+                                    <div class="row">
+                                        <div class="col-lg-3">Opciones</div>
+                                        <div class="col-lg-9">
+                                            <form>
+                                                <input type="checkbox">
+                                                <img src="img/descarga.png" alt="img-option"><br>
+                                                <span>
+                                                    Quédate en casa de anfitriones excepcionales.
+                                                </span>
+                                                <a href="#">Más información</a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="line-gray">
+                                <div class="secciones-fila">
+                                    <div class="row">
+                                        <div class="col-lg-3">Servicios</div>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="wifi">Internet inalámbrico (Wifi)</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="tv">TV</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="cocina">Cocina</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <hr class="line-gray">
+                                <div class="secciones-fila">
+                                    <div class="row">
+                                        <div class="col-lg-3">Servicios</div>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="wifi">Edificio con ascensor</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="tv">Gimnasio</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="cocina">Parking gratuito incluido</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="line-gray">
+                                <div class="secciones-fila">
+                                    <div class="row">
+                                        <div class="col-lg-3">Normas de la Casa</div>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="wifi">Admite Mascotas</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="tv">Apto para eventos</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="cocina">Apto para fumadores</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1"></div>
+                                    </div>
+                                </div>
+                                <hr class="line-gray">
+                                <div class="secciones-fila">
+                                    <div class="row">
+                                        <div class="col-lg-3">Vecindarios</div>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="wifi">SoMa</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="tv">Missin District</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="cocina">Daly City</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="line-gray">
+                                <div class="secciones-fila">
+                                    <div class="row">
+                                        <div class="col-lg-3">Idioma del Anfitrión</div>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="wifi">Español</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="tv">Englich District</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="checkbox">
+                                                    <label><input type="checkbox" value="cocina">Français</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-footer-pegajoso">
+                            <bottom class="footer-pegajoso transparent">Cancelar</bottom>
+                            <bottom class="footer-pegajoso pink">Aplicar filtros</bottom>
+                        </div>
+                        <div class="container-results"></div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div id="mapa"></div>    
+                    </div>
+                </div>
+            </div>  
+        </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChJ65wsaMhPRFc_5jB3EZbC2_ITqIgpTU&signed_in=true&callback=initMap" async defer></script>
         <script type="text/javascript" src="javascripts/vendor/ui/jquery-ui.js"></script>
         <script type="text/javascript" src="javascripts/app.js"></script>
     </body>
 </html>
+

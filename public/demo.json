@@ -1,769 +1,1278 @@
 {
-	"Lugar":[
+	"Miraflores":[
 		{
-			"Habitación1": [
+			"CasaEntera": [
 				{
-					"Precio":,
+					"Precio": "s/.420",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Alquilo casa en el Centro de Miraflores",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "true"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "5",
+							"Baños": "2.5",
+							"Camas": "6"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "true",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "true",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Berlin", "Calle Berlin 965, Miraflores, Perú"]
 					}
 				},
 				{
-					"Precio":,
+					"Precio":"s/.684",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Aluiler de Casa Frente al Mar",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "6",
+							"Baños": "4",
+							"Camas": "6"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "true",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "true",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Malecon Cisneros", "MAlecon Cisneros 380, Miraflores"]
 					}
 				},
 				{
-					"Precio": "blabla",
+					"Precio": "s/.780",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Miraflores Ocean View",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "true"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "7",
+							"Baños": "8",
+							"Camas": "8"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "true",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "true",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "true",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Aviación", "Avenida de la Aviación 678, Miraflores"]
 						}
 				},
 				{
-					"Precio": "blabla",
+					"Precio": "s/.352",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Casa en alquiler",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "5",
+							"Baños": "2.5",
+							"Camas": "5"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "true",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Pardo", "Avendida Jose Pardo 820, Miraflores"]
 					}
 				},
 				{
-					"Precio":"blabla",
+					"Precio":"s/.458",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Casa Cerca a restaurantes",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "True"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "4",
+							"Baños": "2.5",
+							"Camas": "4"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "true",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Calle Berlin", "Calle Berlin 556, Miraflores"]
 					}
 				}
 			],
-			"Habitacion2":[
+			"HabitacionPrivada":[
 				{
-					"Precio": "blabla",
+					"Precio": "s/.75",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Nice, Romantic, Near Waterfront, with balcony3",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "3",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "false",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Berlin", " Calle Berlin 124, Miraflores"]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.136",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "La suite con vista al Mar",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Calle Madrid", "Calle Madrid 167, Miraflores"]
 					}
 				},
 				{
-					"Precio"
+					"Precio":"s/.72",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Comfortable rooms  in Miraflores",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "2",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "false",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "false",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "false",
+							"SecadorPelo": "false",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "true",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["28 de Julio", "Av 28 de Julio 271, Miraflores"]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "58",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Bedrooms in Miraflores close to the sea",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "2",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "true",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Torre Tagle", ["-12.117575", "-77.038598"]]
 					}
 				},
 				{
-					"Precio": "blabla",
+					"Precio": "bs/.51",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Room in the heart of Miraflores",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "false",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "false",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Elias Aguirre", ["-12.117389", "-77.034754"]]
 					}
 				}
 			],
-			"Habitación3": [
+			"HabitacionCompartida": [
 				{
-					"Precio"
+					"Precio": "34",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Departamento de Estudiantes",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "4"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "false",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "false",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "plancha",
+							"SecadorPelo": "false",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Jose Pardo", ["-12.118955","-77.036570"]]					}
+				},
+				{
+					"Precio": "s/.37",
+					"Descripción":{
+						"titulo": "Miraflores - Dormitorio pada 6 B&B",
+						"Opciones":{
+							"SuperHost": "false"
+						},
+						"Tamaño":{
+							"Habitaciones": "1",
+							"Baños": "4",
+							"Camas": "6"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
+						},
+						"Normas": {
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "true"
+						},
+						"Vecindario": ["Pardo", ["-12.118974", "-77035439"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.51",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Miraflores family Quick Stay",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "6"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "true",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Pardo", ["-12.119006", "-77.029915"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.34",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Bed & Breakfast in Miraflores-Lima",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "2",
+							"Camas": "4"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "false",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "true",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "false",
+							"Secadora":"false",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Enrique Palacios",["-12.116908", "77.035772"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.51",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Thrifty confortable deluxe beds",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "6"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "false",
+							"Perchas": "false",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "true",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "true",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
-					}
-				},
-				{
-					"Precio"
-					"Descripción":{
-						"titulo": "blabla",
-						"Opciones":{
-							"SuperHost": "True o False"
-						},
-						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
-						},
-						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
-						},
-						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
-						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Schell", ["-12.123112", "-77.027956"]]
 					}
 				}
 			]
 		}
 	],
-	"Lugar":[
+	"SanIsidro":[
 		{
-			"Habitación1": [
+			"CasaEntera": [
 				{
-					"Precio":,
+					"Precio": "s/.133",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Luxury appartement Lima",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "false",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "false",
+							"SecadorPelo": "false",
+							"Secadora":"true",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Av Arequipa", ["-12.092573", "-77.033317"]]
 					}
 				},
 				{
-					"Precio":,
+					"Precio": "s/.129",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "El Olivar Best Suite k 5",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "true"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "false",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "true",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "false",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Camino Real", ["-12.097392", "-77.036292"]]
 					}
 				},
 				{
-					"Precio": "blabla",
+					"Precio": "s/109",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Great Aparment in San Isidro Distric",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora": "false",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Jorge Basadre", ["-12.095250", "-77.040694"]]
 						}
 				},
 				{
-					"Precio": "blabla",
+					"Precio": "s/.204",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Lindo Departamento en San Isidro",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "3",
+							"Baños": "1.5",
+							"Camas": "4"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "true",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "false",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "false",
+							"Secadora":"true",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Felipe Salaverry", ["-12.091410", "-77.052284"]]
 					}
 				},
 				{
-					"Precio":"blabla",
+					"Precio":"s/.1363",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Residencia Estilo Mediterraneo",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "4",
+							"Baños": "5.5",
+							"Camas": "9"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "true",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "true",
+							"Champú": "true",
+							"ChimeneaInterior": "true",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "true",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Jorge Basadre", ["-12.094786", "-77.037064"]]
 					}
 				}
 			],
-			"Habitacion2":[
+			"HabitacionPrivada":[
 				{
-					"Precio": "blabla",
+					"Precio": "s/.92",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Furnished Studio W Full Bed #5",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "false",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "true",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["El Rosario", ["-12.095803", "-77.040176"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.55",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Cuarto privado muy cómodo",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "2",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Santa Luisa", ["-12.096041", "-77.034998"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "Bedroom for two w/private bathroom",
 					"Descripción":{
 						"titulo": "blabla",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "false",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"true",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Ollanta", ["-12.93366", "-77.033571"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.65",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Habitación en departamento grande con gran vista",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1.5",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "true",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "true",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "false",
+							"Internet": "true",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "false",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Daniel Hernandez", ["-12.095380", "-77.033742"]]
 					}
 				},
 				{
-					"Precio": "blabla",
+					"Precio": "s/.211",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Spectacular ocean View",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "false",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "false",
+							"Perchas": "false",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "false",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "true",
+							"Timbre": "true",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Juan Arona", ["-12.097027", "-77.032433"]]
 					}
 				}
 			],
-			"Habitación3": [
+			"HabitacionCompartida": [
 				{
-					"Precio"
+					"Precio": "s/.51",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Passport cozy private room",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "false",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "false",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "false",
+							"SecadorPelo": "false",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Paz Soldan", ["-12.096797","-77.034708"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.170",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "KUYA linda desayuno delux",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "false",
+							"Lavadora": "false",
+							"Perchas": "false",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "false",
+							"SecadorPelo": "false",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "true",
+							"Eventos": "false",
+							"fumadores": "true"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Andres Reyes", ["-12.094426", "-77.029762"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.37",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Bed & Breakfast/ San Isidro Lima",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "1",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "false",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "true",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "true",
+							"Lavadora": "false",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "true",
+							"Secadora":"false",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Federico Villareal", ["-12.095768","-77.031232"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.37",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "House Inn Backpacker Hostel",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "4",
+							"Camas": "8"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "true",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "true",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "false",
+							"Lavadora": "false",
+							"Perchas": "false",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "false",
+							"SecadorPelo": "false",
+							"Secadora":"false",
+							"TVSatelite": "true",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "false",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "false",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Manuel Fuentes", ["-12.098097", "-77.030406"]]
 					}
 				},
 				{
-					"Precio"
+					"Precio": "s/.119",
 					"Descripción":{
-						"titulo": "blabla",
+						"titulo": "Cuarto completo",
 						"Opciones":{
-							"SuperHost": "True o False"
+							"SuperHost": "false"
 						},
 						"Tamaño":{
-							"Habitaciones": "1 al 10",
-							"Baños": "1 a más",
-							"Camas": "1 a más"
+							"Habitaciones": "1",
+							"Baños": "2",
+							"Camas": "1"
 						},
 						"Servicios":{
-							"InternetInalambrico": "true o false",
-							"Tv": "true o false",
-							"Cocina" : []
+							"InternetInalambrico": "true",
+							"Tv": "true",
+							"Cocina" : "true",
+							"AccesoDisponible": "false",
+							"AireAcondicionado": "false",
+							"AptoFamiliasNiños": "false",
+							"Calefacción": "false",
+							"Champú": "false",
+							"ChimeneaInterior": "false",
+							"Desayuno": "true",
+							"Internet": "false",
+							"Lavadora": "true",
+							"Perchas": "true",
+							"PestilloPuertaDormitorio": "true",
+							"plancha": "true",
+							"SecadorPelo": "false",
+							"Secadora":"true",
+							"TVSatelite": "false",
+							"Timbre": "false",
+							"ZonaTrabajoPortaatiles": "true",
 						},
 						"Normas": {
-							"mascotas": "true o false",
-							"Eventos": "true o false",
-							"fumadores": "true o false"
+							"mascotas": "false",
+							"Eventos": "true",
+							"fumadores": "false"
 						},
-						"Vecindario": "bla bla bla"
+						"Vecindario": ["Felipe Villarán", ["-12.096985", "-77.029472"]]
 					}
 				}
 			]

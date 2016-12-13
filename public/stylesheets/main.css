@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  top: 0;
+  height: 100%; }
+  .slider div .item {
+    width: 100%;
+    height: 450px; }
+  .slider div .slider-uno {
+    background-image: url("../images/slider/posters_sm.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat; }
+  .slider div .slider-dos {
+    background-image: url("../images/slider/experiences_mobile_med.jpg");
+    background-size: 800% auto;
+    background-repeat: no-repeat; }
+  .slider div .slider-tres {
+    background-image: url("../images/slider/places_desktop_lg.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position-x: 90%; }
+  .slider div .slider-cuatro {
+    background-image: url("../images/slider/keynote_desktop.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat; }
+
+.destinos-destacados h3 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #484848; }
+
+.destinos-destacados .img-destino {
+  width: 100%; }
+
+.experiencias-solidarias h3 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #484848; }
+
+.experiencias-solidarias .img-experiencias {
+  width: 100%; }
+
+.experiencias-solidarias span {
+  font-weight: bold; }
+
+.experiencias-solidarias p {
+  display: inline-block; }

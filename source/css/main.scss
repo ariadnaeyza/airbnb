@@ -1,8 +1,61 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import "variables";
+.slider{
+	position: relative;
+	top:0;
+	height: 100%;
+	div .item {
+		width: 100%;
+		height: 450px;
+	}
+	.img-slider{
+		
+	}
+	div .slider-uno{
+		background-image: url("../images/slider/posters_sm.jpg");
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+	div .slider-dos{
+		background-image: url("../images/slider/experiences_mobile_med.jpg");
+		background-size: 800% auto;
+		background-repeat: no-repeat;
+	}
+	div .slider-tres{
+		background-image: url("../images/slider/places_desktop_lg.png");
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position-x: 90%;
+	}
+	div .slider-cuatro{
+		background-image: url("../images/slider/keynote_desktop.jpg");
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+}
+.destinos-destacados{
+	h3{
+		font-size: 18px;
+		margin-bottom: 18px;
+		color: $colorGrisClaro;
+	}
+	.img-destino{
+		width: 100%;
+	}
 }
 
-a {
-  color: #00B7FF;
+.experiencias-solidarias{
+	h3{	
+		font-size: 18px;		
+		margin-bottom: 18px;
+		color: $colorGrisClaro;
+	}
+	.img-experiencias{
+		width: 100%;
+	}
+	span{
+		font-weight: bold;
+	}
+	p{
+		display: inline-block;
+	}
 }

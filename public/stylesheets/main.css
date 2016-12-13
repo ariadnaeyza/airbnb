@@ -44,6 +44,7 @@
 
 .experiencias-solidarias p {
   display: inline-block; }
+
 header img {
   width: 40px; }
 
@@ -67,9 +68,3 @@ footer a:hover, footer a:focus, footer a:active {
 
 footer img {
   width: 40px; }
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
-
-a {
-  color: #00B7FF; }

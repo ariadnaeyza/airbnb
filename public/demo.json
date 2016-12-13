@@ -1,0 +1,772 @@
+{
+	"Lugar":[
+		{
+			"Habitación1": [
+				{
+					"Precio":,
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio":,
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+						}
+				},
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio":"blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				}
+			],
+			"Habitacion2":[
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				}
+			],
+			"Habitación3": [
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				}
+			]
+		}
+	],
+	"Lugar":[
+		{
+			"Habitación1": [
+				{
+					"Precio":,
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio":,
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+						}
+				},
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio":"blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				}
+			],
+			"Habitacion2":[
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio": "blabla",
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				}
+			],
+			"Habitación3": [
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				},
+				{
+					"Precio"
+					"Descripción":{
+						"titulo": "blabla",
+						"Opciones":{
+							"SuperHost": "True o False"
+						},
+						"Tamaño":{
+							"Habitaciones": "1 al 10",
+							"Baños": "1 a más",
+							"Camas": "1 a más"
+						},
+						"Servicios":{
+							"InternetInalambrico": "true o false",
+							"Tv": "true o false",
+							"Cocina" : []
+						},
+						"Normas": {
+							"mascotas": "true o false",
+							"Eventos": "true o false",
+							"fumadores": "true o false"
+						},
+						"Vecindario": "bla bla bla"
+					}
+				}
+			]
+		}
+	]
+}

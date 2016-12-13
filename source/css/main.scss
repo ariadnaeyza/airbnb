@@ -58,4 +58,35 @@
 	p{
 		display: inline-block;
 	}
+
+@import "variable";
+
+header {
+    img{
+        width: $iconoImagen;
+    }
+    a{
+        color: $colorNegro;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: transparent;
+        color: $colorNegro;
+    }
+}
+
+footer{
+    select{
+        margin-bottom: 12px;
+    }
+    a{
+        color: $colorGrisOscuro;
+    }
+    a:hover, a:focus, a:active{
+        color: $colorTurquesa;
+        text-decoration: $none;
+        outline: $none;
+    }
+    img{
+        width: $iconoImagen;
+    }
 }

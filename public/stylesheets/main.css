@@ -44,3 +44,32 @@
 
 .experiencias-solidarias p {
   display: inline-block; }
+header img {
+  width: 40px; }
+
+header a {
+  color: black; }
+
+header .nav > li > a:focus, header .nav > li > a:hover {
+  background-color: transparent;
+  color: black; }
+
+footer select {
+  margin-bottom: 12px; }
+
+footer a {
+  color: #767676; }
+
+footer a:hover, footer a:focus, footer a:active {
+  color: #62B3B7;
+  text-decoration: none;
+  outline: none; }
+
+footer img {
+  width: 40px; }
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }

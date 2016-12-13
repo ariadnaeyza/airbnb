@@ -1,29 +1,29 @@
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    zoom: 6,
-  });
-  var infoWindow = new google.maps.InfoWindow({map: map});
+// function initMap() {
+//   var map = new google.maps.Map(document.getElementById('map'), {
+//     center: {lat: -34.397, lng: 150.644},
+//     zoom: 6,
+//   });
+//   var infoWindow = new google.maps.InfoWindow({map: map});
 
-  // Try HTML5 geolocation.
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-      };
+//   // Try HTML5 geolocation.
+//   if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(function(position) {
+//       var pos = {
+//         lat: position.coords.latitude,
+//         lng: position.coords.longitude
+//       };
 
-      infoWindow.setPosition(pos);
-      infoWindow.setContent('Location found.');
-      map.setCenter(pos);
-    }, function() {
-      handleLocationError(true, infoWindow, map.getCenter());
-    });
-  } else {
-    // Browser doesn't support Geolocation
-    handleLocationError(false, infoWindow, map.getCenter());
-  }
-}
+//       infoWindow.setPosition(pos);
+//       infoWindow.setContent('Location found.');
+//       map.setCenter(pos);
+//     }, function() {
+//       handleLocationError(true, infoWindow, map.getCenter());
+//     });
+//   } else {
+//     // Browser doesn't support Geolocation
+//     handleLocationError(false, infoWindow, map.getCenter());
+//   }
+// }
 
 
 // function cargarMapa(position) {
@@ -50,54 +50,54 @@ function initMap() {
 
 //  };
 
-function miUbicacion() {
-  var latlon = map.getCenter(); // Obtener la posición del mapa
-    var propiedadMarker = {
-      map: map, // Vinculamos al mapa
-      position: latlon, // Nos situamos en nuestro punto
-      draggable: true, // Nos permite poder mover el marcador
-      icon: 'img/marker.png'
-    };
+// function miUbicacion() {
+//   var latlon = map.getCenter(); // Obtener la posición del mapa
+//     var propiedadMarker = {
+//       map: map, // Vinculamos al mapa
+//       position: latlon, // Nos situamos en nuestro punto
+//       draggable: true, // Nos permite poder mover el marcador
+//       icon: 'img/marker.png'
+//     };
 
-    // Creamos un marcador en el mapa
-    markerInicio = new google.maps.Marker(propiedadMarker);
-    // Cada vez que insertemos un marcador, la insertamos en el array mediante el método .push()
-    markers.push(markerInicio);
-    // Agregamos la dirección en el input (Punto de Partida)
-  agregarDireccionInicio();
-  // Agregamos la function a ejecutar al evento de mover el marcador
-    google.maps.event.addListener(markerInicio, 'position_changed', agregarDireccionInicio);
-};
+//     // Creamos un marcador en el mapa
+//     markerInicio = new google.maps.Marker(propiedadMarker);
+//     // Cada vez que insertemos un marcador, la insertamos en el array mediante el método .push()
+//     markers.push(markerInicio);
+//     // Agregamos la dirección en el input (Punto de Partida)
+//   agregarDireccionInicio();
+//   // Agregamos la function a ejecutar al evento de mover el marcador
+//     google.maps.event.addListener(markerInicio, 'position_changed', agregarDireccionInicio);
+// };
 
-function geolocate() {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(position) {
-      var geolocation = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-      };
-      var circle = new google.maps.Circle({
-        center: geolocation,
-        radius: position.coords.accuracy
-      });
-      autocomplete.setBounds(circle.getBounds());
-      });
-  }
-};
+// function geolocate() {
+//     if (navigator.geolocation) {
+//       navigator.geolocation.getCurrentPosition(function(position) {
+//       var geolocation = {
+//         lat: position.coords.latitude,
+//         lng: position.coords.longitude
+//       };
+//       var circle = new google.maps.Circle({
+//         center: geolocation,
+//         radius: position.coords.accuracy
+//       });
+//       autocomplete.setBounds(circle.getBounds());
+//       });
+//   }
+// };
 
-var sigt = function(e){
-	e.preventDefault();
-	var distritoIngresado = $('#icon_prefix').val();  
-		$.ajax({ 
-		  url: "/sitios?lugar="+distritoIngresado,
-		  type: "GET",
-		  success: function(response) {
-		  	console.log(response);
-		  } 
-		});
-}
+// var sigt = function(e){
+// 	e.preventDefault();
+// 	var distritoIngresado = $('#icon_prefix').val();  
+// 		$.ajax({ 
+// 		  url: "/sitios?lugar="+distritoIngresado,
+// 		  type: "GET",
+// 		  success: function(response) {
+// 		  	console.log(response);
+// 		  } 
+// 		});
+// }
 $(document).ready(function(){
-     $("#btn").click(sigt);
+     // $("#btn").click(sigt);
 
     $(function() {
     var dateFormat = "mm/dd/yy",

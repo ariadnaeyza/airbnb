@@ -4,29 +4,46 @@
   height: 100%; }
   .slider div .item {
     width: 100%;
-    height: 450px; }
+    height: 480px; }
   .slider div .slider-uno {
-    background-image: url("../images/slider/posters_sm.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat; }
-  .slider div .slider-dos {
-    background-image: url("../images/slider/experiences_mobile_med.jpg");
-    background-size: 800% auto;
-    background-repeat: no-repeat; }
+    background-image: url("../images/slider/1-slider.jpg"); }
+    .slider div .slider-uno h1 {
+      color: #FFFFFF;
+      font-weight: bold; }
+    .slider div .slider-uno p {
+      color: #FFFFFF; }
+    .slider div .slider-uno .btn-slider {
+      background-color: transparent;
+      color: #FFFFFF;
+      border-radius: 64px;
+      border: 2px solid;
+      border-color: #FFFFFF;
+      padding: 8px 24px 9px;
+      cursor: pointer; }
+  .slider div .slider-dos h1, .slider .slider-tres h1, .slider .slider-cuatro h1 {
+    color: #aaa;
+    font-weight: bold; }
+  .slider div .slider-dos p, .slider .slider-tres p, .slider .slider-cuatro p {
+    color: #aaa; }
+  .slider div .slider-dos .btn-slider, .slider .slider-tres .btn-slider, .slider .slider-cuatro .btn-slider {
+    background-color: transparent;
+    color: #aaa;
+    border-radius: 64px;
+    border: 2px solid;
+    border-color: rgba(72, 72, 72, 0.3);
+    padding: 8px 24px 9px;
+    cursor: pointer; }
+  .slider div .slider-dos, .slider .slider-tres, .slider .slider-cuatro {
+    background-image: url("../images/slider/2-slider.jpg"); }
   .slider div .slider-tres {
-    background-image: url("../images/slider/places_desktop_lg.png");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position-x: 90%; }
+    background-image: url("../images/slider/3-slider.jpg"); }
   .slider div .slider-cuatro {
-    background-image: url("../images/slider/keynote_desktop.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat; }
+    background-image: url("../images/slider/4-slider.jpg"); }
 
 .destinos-destacados h3 {
   font-size: 18px;
   margin-bottom: 18px;
-  color: #484848; }
+  color: #aaa; }
 
 .destinos-destacados .img-destino {
   width: 100%; }
@@ -34,7 +51,7 @@
 .experiencias-solidarias h3 {
   font-size: 18px;
   margin-bottom: 18px;
-  color: #484848; }
+  color: #aaa; }
 
 .experiencias-solidarias .img-experiencias {
   width: 100%; }
@@ -46,7 +63,7 @@
   display: inline-block; }
 
 header img {
-  width: 40px; }
+  width: 30px; }
 
 header a {
   color: black; }
@@ -59,7 +76,7 @@ footer select {
   margin-bottom: 12px; }
 
 footer a {
-  color: #767676; }
+  color: #484848; }
 
 footer a:hover, footer a:focus, footer a:active {
   color: #62B3B7;
@@ -67,4 +84,75 @@ footer a:hover, footer a:focus, footer a:active {
   outline: none; }
 
 footer img {
-  width: 40px; }
+  width: 30px; }
+
+.form .btn-fichas {
+  width: 100%;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  color: #484848;
+  padding: 8px 10px 8px 14px;
+  border: 1px solid #aaa;
+  text-align: left; }
+
+.form .div-gray {
+  padding-left: 7px;
+  cursor: pointer;
+  background-color: #edefed;
+  border: 1px solid #dce0e0;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  color: #484848; }
+
+.form .line-gray {
+  margin-bottom: 1px solid #aaa; }
+
+.form .ui-state-default {
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  background: #FFFFFF;
+  cursor: pointer; }
+
+.form .ui-slider-horizontal .ui-slider-range {
+  background-color: #00a699;
+  height: 4px; }
+
+.form .ui-widget.ui-widget-content {
+  background: #dce0e0;
+  height: 4px;
+  width: 100%; }
+
+.form .container-advancedFilter .btn-filtros {
+  padding: 7px 21px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid;
+  cursor: pointer;
+  color: #484848;
+  background-color: #FFFFFF;
+  margin-left: 20px;
+  display: block; }
+
+.form .btn-footer-pegajoso .footer-pegajoso {
+  width: 100%;
+  padding: 8px 60px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold; }
+
+.form .btn-footer-pegajoso .transparent {
+  border-color: #aaa;
+  color: #484848;
+  background: white; }
+
+.form .btn-footer-pegajoso .pink {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #FFFFFF; }
+
+#mapa {
+  height: 80px;
+  width: 100%; }

@@ -70,9 +70,9 @@ var buscar = function(e) {
     e.preventDefault();
     var busqueda = $("#tags").val();
 
-    addMarkers();
     if(busqueda.trim().length > 0){
         if(busqueda === "Miraflores"){
+            addMarkers();
             templateDivs= ""; 
             $.get("/demo.json", function(response){
                 $.each(response.miraflores, function(indice, response){
@@ -87,6 +87,9 @@ var buscar = function(e) {
                 $("#contenedor-depas").html(templateDivs);
             });
         } else if(busqueda === "San Isidro"){
+            function clearMarkers() {
+                addMarker(null, null);
+            }
             templateDivs= "";        
             $.get("/demo.json", function(response){
                 $.each(response.SanIsidro, function(indice, response){

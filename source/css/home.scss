@@ -1,8 +1,81 @@
 @import "variables";
-
+body{
+   color: #484848;
+}
 .btn-fichas{
 	border-radius: 2px;
     background-color: $fondoBlanco;
     color: $colorGrisOscuro;
     padding: 8px 10px;
+}
+.mapa{
+	height: 100vh;
+	width: 100%;
+}
+header{
+   margin-bottom: 10px;
+   nav{
+      border-bottom: 1px solid $bordeNav;
+   }
+   .nav > li > a:focus, header .nav > li > a:hover {
+      background-color: transparent;
+      color: $colorNegro; 
+   }
+   .navbar-brand{
+      padding: 10px 14px 0px 4px;
+   }
+   .navbar-header{
+      border-right: 1px solid $bordeNav;
+   }
+   img {
+      width: 30px; 
+   }
+   a {
+      color: $colorNegro; 
+   }
+   i{
+      color: $bordeNav;
+   }
+   .navbar-form{
+      margin-top: 15px;
+   }
+   input{
+      border: transparent;
+   }
+}
+
+.form{
+   .subtitle, .publicity{
+      margin: 10px 0px;
+   }
+   .line-gray{
+      margin: 10px 0px;
+   }
+   .secciones-fila{
+      .div-gray{
+         background-color: $fondoGrisClaro;
+         padding: 15px 5px;
+         border: 1px solid $bordeNav;
+      }
+      span.ui-slider-handle.ui-corner-all.ui-state-default {
+         border-radius: 50%;
+      }
+      #slider-range{
+         height: 5px;
+      }
+      .ui-widget-header{
+         background: $colorLineaRango;
+      }
+   }
+   .container-advancedFilter{
+      .boton-advancedFilter{
+         .btn-filtros{
+            background-color: transparent;
+            padding: 10px 20px;
+            font-weight: 900;
+            border: 1px solid gray;
+            border-radius: 8%;
+         }
+      }
+   }
 }

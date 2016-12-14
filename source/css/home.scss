@@ -41,10 +41,37 @@ header{
 }
 
 .form{
-   .subtitle{
+   .subtitle, .publicity{
       margin: 10px 0px;
    }
    .line-gray{
       margin: 10px 0px;
+   }
+   .secciones-fila{
+      .div-gray{
+         background-color: $fondoGrisClaro;
+         padding: 15px 5px;
+         border: 1px solid $bordeNav;
+      }
+      span.ui-slider-handle.ui-corner-all.ui-state-default {
+         border-radius: 50%;
+      }
+      #slider-range{
+         height: 5px;
+      }
+      .ui-widget-header{
+         background: $colorLineaRango;
+      }
+   }
+   .container-advancedFilter{
+      .boton-advancedFilter{
+         .btn-filtros{
+            background-color: transparent;
+            padding: 10px 20px;
+            font-weight: 900;
+            border: 1px solid gray;
+            border-radius: 8%;
+         }
+      }
    }
 }

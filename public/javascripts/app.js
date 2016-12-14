@@ -2,9 +2,10 @@ var template= "<div>{{titulo}}</div>"
 var templateDivs= "";
 
 var cargarPagina = function() {
-    autocompletar();
-    initMap();
-    $("#btn").click(buscar);
+  autocompletar();
+  initMap();
+  $("#btn").click(buscar);
+  $(".btn-filtros").click(aparece);
 };
 
 var map = document.getElementById("mapa");
@@ -163,6 +164,7 @@ var loop = function(c,d){
 };
 
 var autocompletar = function() {   
+
     $(function() {
         var dateFormat = "mm/dd/yy",
         from = $("#from")
@@ -256,6 +258,10 @@ var autocompletar = function() {
     });
 };
 
+var aparece = function() {
+    $(".contenedorDesaparece").removeClass("none");
+};
+
 var addMarker = function(position, map) {
     /*var infowindow = new google.maps.InfoWindow();*/
     var markerOption = { position: position };
@@ -276,17 +282,3 @@ var addMarkers = function() {
       }
     }
 };
-
-// var clearMarkers = function() {
-//     if ($("#tags").val() === "Miraflores") {
-//         for (var i = 0; i < marcadoresMiraflores.length; i++) {
-//             marcadoresMiraflores[i].setMap(null);
-//         }
-//         marcadoresMiraflores.length = 0;
-//     } else if ($("#tags").val() === "S") {
-//         for (var i = 0; i < marcadoresSanIsidro.length; i++) {
-//             marcadoresSanIsidro[i].setMap(null);
-//         }
-//         marcadoresSanIsidro.length = 0;
-//     }
-// };

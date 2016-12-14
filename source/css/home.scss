@@ -1,5 +1,7 @@
 @import "variables";
-
+body{
+   color: #484848;
+}
 .btn-fichas{
 	border-radius: 2px;
     background-color: $fondoBlanco;
@@ -7,21 +9,42 @@
     padding: 8px 10px;
 }
 header{
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    nav{
-      border-bottom: 1px solid $colorGrisClaro;
+      border-bottom: 1px solid $bordeNav;
    }
    .nav > li > a:focus, header .nav > li > a:hover {
       background-color: transparent;
-      color: black; 
+      color: $colorNegro; 
+   }
+   .navbar-brand{
+      padding: 10px 14px 0px 4px;
    }
    .navbar-header{
-      border-right: 1px solid $colorGrisClaro;
+      border-right: 1px solid $bordeNav;
    }
    img {
       width: 30px; 
    }
    a {
-      color: black; 
+      color: $colorNegro; 
+   }
+   i{
+      color: $bordeNav;
+   }
+   .navbar-form{
+      margin-top: 15px;
+   }
+   input{
+      border: transparent;
+   }
+}
+
+.form{
+   .subtitle{
+      margin: 10px 0px;
+   }
+   .line-gray{
+      margin: 10px 0px;
    }
 }

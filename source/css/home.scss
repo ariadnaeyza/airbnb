@@ -163,4 +163,17 @@ header{
    overflow-y: scroll;
    height: 662px;
 }
+
+nav{
+   position: fixed;
+   z-index: 2;
+   width: 100%;
+   background: white;
+   margin: 0px;
+   top: 0; 
+}
+
+.mt{
+   margin-top: 41px;
+}
 //sin sass

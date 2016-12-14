@@ -9,49 +9,99 @@ var cargarPagina = function() {
 };
 
 var map = document.getElementById("mapa");
-var marcadores = [{
+var marcadoresMiraflores = [{
     latitud: "-12.120104",
-    longitud: "-77.039648"},
+    longitud: "-77.039648",
+    info: "Precio: S/. 420"},
     {latitud: "-12.124605",
-    longitud: "-77.037252"},
-    {latitud: "-12.118948",
-    longitud: "-77.038886"},
-    {latitud: "-12.120089",
-    longitud: "-77.035264"},
-    {latitud: "-12.122268",
-    longitud: "-77.031666"},
-    {latitud: "-12.123285",
-    longitud: "-77.036507"},
-    {latitud: "-12.125845",
-    longitud: "-77.031988"},
-    {latitud: "-12.117575",
-    longitud: "-77.038598"},
-    {latitud: "-12.117389",
-    longitud: "-77.034754"},
-    {latitud: "-12.117389",
-    longitud: "-77.034754"},
-    {latitud: "-12.118955",
-    longitud: "-77.036570"},
-    {latitud: "-12.118974",
-    longitud: "-77035439"},
-    {latitud: "-12.119006",
-    longitud: "-77.029915"},
-    {latitud: "-12.116908",
-    longitud: "-77.035772"},
-    {latitud: "-12.123112",
-    longitud: "-77.027956"},
-    {latitud: "-12.092573",
-    longitud: "-77.033317"},
-    {latitud: "-12.097392",
-    longitud: "-77.036292"},
-    {latitud: "-12.095250",
-    longitud: "-77.040694"},
-    {latitud: "-12.091410",
-    longitud: "-77.052284"},
-    {latitud: "-12.094786",
-    longitud: "-77.037064"},
+    longitud: "-77.037252",
+    info: "Precio: S/. 684"},
     {latitud: "-12.121693",
-    longitud: "-77.040173"}];
+    longitud: "-77.040173",
+    info: "Precio: S/. 780"},
+    {latitud: "-12.118948",
+    longitud: "-77.038886",
+    info: "Precio: S/. 352"},
+    {latitud: "-12.120089",
+    longitud: "-77.035264",
+    info: "Precio: S/. 458"},
+    {latitud: "-12.122268",
+    longitud: "-77.031666",
+    info: "Precio: S/. 75"},
+    {latitud: "-12.123285",
+    longitud: "-77.036507",
+    info: "Precio: S/. 136"},
+    {latitud: "-12.125845",
+    longitud: "-77.031988",
+    info: "Precio: S/. 72"},
+    {latitud: "-12.117575",
+    longitud: "-77.038598",
+    info: "Precio: S/. 58"},
+    {latitud: "-12.117389",
+    longitud: "-77.034754",
+    info: "Precio: S/. 51"},
+    {latitud: "-12.118955",
+    longitud: "-77.036570",
+    info: "Precio: S/. 34"},
+    {latitud: "-12.118974",
+    longitud: "-77035439",
+    info: "Precio: S/. 37"},
+    {latitud: "-12.119006",
+    longitud: "-77.029915",
+    info: "Precio: S/. 51"},
+    {latitud: "-12.116908",
+    longitud: "-77.035772",
+    info: "Precio: S/. 34"},
+    {latitud: "-12.123112",
+    longitud: "-77.027956",
+    info: "Precio: S/. 51"}];
+
+var marcadoresSanIsidro =  [{
+    latitud: "-12.092573",
+    longitud: "-77.033317",
+    info: "Precio: S/. 133"},
+    {latitud: "-12.097392",
+    longitud: "-77.036292",
+    info: "Precio: S/. 129"},
+    {latitud: "-12.095250",
+    longitud: "-77.040694",
+    info: "Precio: S/. 109"},
+    {latitud: "-12.091410",
+    longitud: "-77.052284",
+    info: "Precio: S/. 204"},
+    {latitud: "-12.094786",
+    longitud: "-77.037064",
+    info: "Precio: S/. 1363"},
+    {latitud: "-12.095803",
+    longitud: "-77.040176",
+    info: "Precio: S/. 92"},
+    {latitud: "-12.096041",
+    longitud: "-77.034998",
+    info: "Precio: S/. 55"},
+    {latitud: "-12.93366",
+    longitud: "-77.033571",
+    info: "Precio: S/. 65"},
+    {latitud: "-12.095380",
+    longitud: "-77.033742",
+    info: "Precio: S/. 65"},
+    {latitud: "-12.097027",
+    longitud: "-77.032433",
+    info: "Precio: S/. 211"},
+    {latitud: "-12.096797",
+    longitud: "-77.034708",
+    info: "Precio: S/. 51"},
+    {latitud: "-12.094426",
+    longitud: "-77.029762",
+    info: "Precio: S/. 170"},
+    {latitud: "-12.095768",
+    longitud: "-77.031232",
+    info: "Precio: S/. 37"},
+    {latitud: "-12.098097",
+    longitud: "-77.030406",
+    info: "Precio: S/. 37"},
+    {latitud: "-12.096985",
+    longitud: "-77.029472",
+    info: "Precio: S/. 119"}];
 
 $(document).ready(cargarPagina);
 
@@ -111,42 +161,7 @@ var loop = function(c,d){
     for(var i = 0; i < 5; i ++){
         templateDivs += c.replace("{{titulo}}", d[i].Descripción.titulo);
     }
-  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-        var icons = {
-          parking: {
-            icon: iconBase + 'parking_lot_maps.png'
-          },
-          library: {
-            icon: iconBase + 'library_maps.png'
-          },
-          info: {
-            icon: iconBase + 'info-i_maps.png'
-          }
 };
-//marker
-function addMarker(feature) {
-  var marker = new google.maps.Marker({
-    position: feature.position,
-    icon: icons[feature.type].icon,
-    map: map
-  });
-}
-var features = [
-    {
-      position: new google.maps.LatLng(-12.118974, -77035439),
-      type: 'info'
-    }, {
-      position: new google.maps.LatLng(-12.117575, -77.038598),
-      type: 'info'
-    }, {
-      position: new google.maps.LatLng(-33.91747, 151.22912),
-      type: 'info'
-    }, 
-];
-
-for (var i = 0, feature; feature = features[i]; i++) {
-  addMarker(feature);
-}
 
 var autocompletar = function() {   
 
@@ -242,21 +257,28 @@ var autocompletar = function() {
       source: availableTags
     });
 };
-var aparece=function(){
-  $(".contenedorDesaparece").removeClass("none");
-}
 
+var aparece = function() {
+    $(".contenedorDesaparece").removeClass("none");
+};
 
 var addMarker = function(position, map) {
-    var markerOption = { position: position }
+    /*var infowindow = new google.maps.InfoWindow();*/
+    var markerOption = { position: position };
     var marker = new google.maps.Marker(markerOption);
     marker.setMap(map);
 };
 
-var addMarkers = function() { 
-    for (var i = 0; i < marcadores.length; i++) {
-        var location = new google.maps.LatLng(marcadores[i].latitud, marcadores[i].longitud);
-        addMarker(location, map);
+var addMarkers = function() {
+    if ($("#tags").val() === "Miraflores") {
+      for (var i = 0; i < marcadoresMiraflores.length; i++) {
+          var location = new google.maps.LatLng(marcadoresMiraflores[i].latitud, marcadoresMiraflores[i].longitud);
+          addMarker(location, map);
+      }
+    } else if ($("#tags").val() === "San Isidro") {
+      for (var i = 0; i < marcadoresSanIsidro.length; i++) {
+          var location = new google.maps.LatLng(marcadoresSanIsidro[i].latitud, marcadoresSanIsidro[i].longitud);
+          addMarker(location, map);
+      }
     }
 };
-

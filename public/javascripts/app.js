@@ -268,11 +268,21 @@ var autocompletar = function() {
       source: availableTags
     });
 };
-
+$("#cancelar").click(function(){
+   $(".contenedorDesaparece").addClass("none");
+   $(".aparece1").removeClass("none");
+   desaparecer()
+});
 var aparece = function() {
     $(".contenedorDesaparece").removeClass("none");
+    $("#contenedor-depas").addClass("none")
+  
 };
 
+var desaparecer=function(){
+    $(".aparece1").addClass("none");
+    $("#contenedor-depas").removeClass("none");
+};
 var addMarker = function(position, map) {
     /*var infowindow = new google.maps.InfoWindow();*/
     var markerOption = { position: position };

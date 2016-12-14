@@ -41,19 +41,19 @@
                 </div>
             </nav>
         </header>
-        <section class="container-fluid">
-            <div class="row mt">
-                <div class="col-lg-7">
+        <section class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-7 overflow">
                     <br><br>
                     <div class="row">
                         <div class="col-lg-3">
                             <p>Fechas</p>   
                         </div>
                         <div class="col-lg-3">
-                            <input type="text" id="from" name="from">   
+                            <input type="text" id="from" name="from" placeholder="llegada">   
                         </div>
                         <div class="col-lg-3">
-                            <input type="text" id="to" name="to">   
+                            <input type="text" id="to" name="to" placeholder="salida">   
                         </div>
                         <div class="col-lg-3" id="input">
                             <label for="number">Huésped</label>
@@ -74,18 +74,18 @@
                     <hr>
                     <div class="divRango row" >
                         <div class="col-lg-3">
-                        <p>Tipo de Habitaciòn</p>
+                            <p>Tipo de Habitaciòn</p>
                         </div>
                         <div class="col-lg-3 padding">
-                            <img src="images/habitaciones/house.svg" class="imagen"><p class="inline">Casa Entera</p><input type="checkbox" name="Casa" >
+                            <img src="images/habitaciones/house.svg" class="imagen col-lg-3 sinpa"><p class="inline col-lg-6 sinpa">Casa Entera</p><input type="checkbox" name="Casa" class="col-lg-3 sinpa" >
                         </div>
                         <div class="col-lg-3 padding">
-                            <img src="images/habitaciones/house.svg" class="imagen">
-                            <p class="inline">Habitacion Privada</p><input type="checkbox" name="Habitacion">
+                            <img src="images/habitaciones/house.svg" class="imagen col-lg-3 sinpa">
+                            <p class="inline col-lg-6 sinpa">Habitacion Privada</p><input type="checkbox" name="Habitacion" class="col-lg-3 sinpa">
                         </div>
                         <div class="col-lg-3 padding">
-                            <img src="images/habitaciones/house.svg" class="imagen">
-                            <p class="inline">Habitacion Compartida</p><input type="checkbox" name="Habitacion">
+                            <img src="images/habitaciones/house.svg" class="imagen col-lg-3 sinpa">
+                            <p class="inline col-lg-6 sinpa">Habitacion Compartida</p><input type="checkbox" name="Habitacion"  class="col-lg-3 sinpa">
                         </div>
                     </div>
                     <hr>
@@ -109,63 +109,17 @@
                         </div>
                     </div> 
                     <hr>  
-                    <div class="row">
+                    <div class="row aparece1">
                         <div class="col-lg-6 col-md-6 boton-advancedFilter">
                             <button class="btn-filtros">Filtros</button>
                         </div>
                         <div class="text-right col-lg-6"><strong>Más de 300 alquileres</strong></div>
                     </div>
-                    <div class="row">
+                    <div class="row aparece1">
                         <p>Introduce las fechas para ver el precio total. Ten en cuenta que se aplicarán tarifas adicionales y es posible que se añadan impuestos.</p>
                     </div>
                     <div class="contenedorDesaparece none secciones-fila row">
                         <hr class="line-gray">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-12">
-                                <div class="subtitle text-center">
-                                    <p>Tipo de habitación</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-12">
-                                <div class="div-gray">
-                                    <i class="fa fa-home"></i><span>Casa entera</span>
-                                    <input type="checkbox">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-12">
-                                <div class="div-gray">
-                                    <span><i class="fa fa-sign-in"></i>Habitación privada</span>
-                                    <input type="checkbox">
-                                </div>   
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-12">
-                                <div class="div-gray">
-                                    <span>Habitación compartida</span>
-                                    <input type="checkbox">
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="divRango row">
-                            <p>
-                                <label for="amount">Rango de precios:</label>
-                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                            </p>
-                        </div> 
-                        <div id="slider-range" class="slider-range"></div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <p>Reserva Inmediata</p> 
-                            </div>
-                            <div class="col-lg-8 col-md-8"><h5>Anuncios que no requieren que el anfitrión no acepte la solicitud</h5></div>
-                            <div class="col-lg-2 col-md-2">
-                                <label class="checkbox-inline">
-                                    <input type="checkbox" checked data-toggle="toggle">
-                                </label>      
-                            </div>
-                        </div>       
-                        <hr>
                         <div class="row">
                             <div class="col-lg-3">
                                 <p>Tamaño</p>
@@ -241,11 +195,12 @@
                             <div class="col-sm-9 col-lg-9">
                                 <form>
                                     <input type="checkbox">
-                                    <img src="img/descarga.png" alt="img-option"><br>
-                                    <span>
-                                        Quédate en casa de anfitriones excepcionales.
-                                    </span>
-                                    <a href="#">Más información</a>
+                                    <div class="width-form">
+                                        <span>
+                                            Quédate en casa de anfitriones excepcionales.
+                                        </span>
+                                        <a href="#">Más información</a>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -269,7 +224,6 @@
                                     <div class="col-sm-4 col-lg-4">
                                         <div class="checkbox">
                                             <label><input type="checkbox" value="cocina">Cocina</label>
-                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -324,7 +278,7 @@
                             </div>
                         </div>  
                         <div class="btn-footer-pegajoso">
-                            <button class="footer-pegajoso transparent " type="button">Cancelar</button>
+                            <button class="footer-pegajoso transparent " type="button" id="cancelar">Cancelar</button>
                             <button class="footer-pegajoso pink " type="button">Aplicar filtros</button>
                         </div>
                     </div>

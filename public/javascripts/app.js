@@ -64,16 +64,14 @@ var initMap = function() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(map, myOptions);
-    addMarkers();
 };
 
 var buscar = function(e) {
     e.preventDefault();
     var busqueda = $("#tags").val();
 
+    addMarkers();
     if(busqueda.trim().length > 0){
-      var geocoder = new google.maps.Geocoder();
-      geocoder.geocode({ "address": busqueda} , ubicacion);
       if(busqueda === "Miraflores"){
         templateDivs= ""; 
         $.get("/demo.json", function(response){
@@ -112,22 +110,6 @@ var loop = function(c,d){
   for(var i = 0; i < 5; i ++){
     templateDivs += c.replace("{{titulo}}", d[i].Descripción.titulo);
   }
-};
-
-var ubicacion = function(result, status) {
-    if (status){
-      var posMapa = {
-          center: result[0].geometry.location,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-      };
-      var mapa = new google.maps.Map(document.getElementById("mapa"), posMapa);
-      mapa.fitBounds(result[0].geometry.viewport);
-
-      addMarker(result[0].geometry.location, mapa);
-      // var markerOption = { position: result[0].geometry.location }
-      // var marker = new google.maps.Marker(markerOption);
-      // marker.setMap(mapa);
-    }
 };
 
 var autocompletar = function() {

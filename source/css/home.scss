@@ -1,6 +1,7 @@
-@import "variables";
+@import "_variables";
 body{
    color: #484848;
+   padding-left:1%;
 }
 .btn-fichas{
 	border-radius: 2px;
@@ -79,3 +80,64 @@ header{
       }
    }
 }
+   .btn-footer-pegajoso{
+      margin-top: 5%;
+      margin-left: 12%;
+      width: 90%;
+      .footer-pegajoso{
+         width: 45%;
+         padding: 8px 60px;
+         font-size: 14px;
+         border-radius: 4px;
+         border: 1px solid $colorGrisClaro;
+         text-align: center;
+         vertical-align: middle;
+         font-weight: bold;
+      }
+      .transparent{
+            border-color: $colorGrisClaro;
+            color: $colorGrisOscuro;
+            background: white;
+      }
+      .pink{
+         border-color: $colorRosa;
+         background-color: $colorRosa;
+         color: $fondoBlanco;
+      }
+   }
+//sin sass
+.none{
+   display:none;
+}
+.habitacion{
+   height:350px;
+   position:relative;
+}
+.habitacion-imagen{
+   width:100%;
+   position:relative;
+}
+.precio{
+   background-color:black;
+   color:white;
+   position:absolute;
+   top:35%;
+   width:20%;
+    height: 40px;
+}
+.pad-imagen{
+   margin:2% 1%;
+}
+.width-star{
+   width:10%;
+}
+#foto-circulo{
+   border-radius:50%;
+   width:20%;
+   height:70px;
+   border:2px solid white;
+   position:absolute;
+   top:55%;
+   right:7%;
+}
+//sin sass

@@ -12,6 +12,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Optional theme -->
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheets/home.css">
     </head>
@@ -44,33 +45,34 @@
             <div class="row">
                 <div class="col-lg-7">
                     <br><br>
-                    <div class="col-lg-3">
-                        <p>Fechas</p>   
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <p>Fechas</p>   
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="text" id="from" name="from">   
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="text" id="to" name="to">   
+                        </div>
+                        <div class="col-lg-3" id="input">
+                            <label for="number">Huésped</label>
+                            <select name="number" id="number">
+                                <option>1</option>
+                                <option selected="selected">2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-lg-3">
-                        <input type="text" id="from" name="from">   
-                    </div>
-                    <div class="col-lg-3">
-                        <input type="text" id="to" name="to">   
-                    </div>
-                    <div class="col-lg-3" id="input">
-                        <label for="number">Huésped</label>
-                        <select name="number" id="number">
-                            <option>1</option>
-                            <option selected="selected">2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </select>
-                        <button>Buscar</button>  
-                    </div>
-                     <hr>
-                    <div class="divRango" >
+                    <hr>
+                    <div class="divRango row" >
                         <div class="col-lg-3">
                         <p>Tipo de Habitaciòn</p>
                         </div>
@@ -87,386 +89,300 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="divRango">
+                    <div class="divRango row">
                         <p>
                             <label for="amount">Rango de precios:</label>
                             <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
                         </p>
-                        <div id="slider-range"></div>
                     </div>
-                    <hr>
-                </div>
-                <div class="col-lg-5">
-                    <div class="mapa" id="mapa"></div>
-                </div>    
-            </div>
-        </section>
-        <section class="form">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-8 visible-md visible-lg">
-                        <div class="primer-container">
-                            <div class="secciones-fila">
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-12 col-sm-12">
-                                        <div class="subtitle text-center">
-                                            <p>Fechas</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-10 col-md-12 col-sm-12">
-                                        <div class="row">
-                                            <div class="col-md-4 col-sm-4">
-                                                 <input type="text" id="from" name="from" class="btn-fichas">   
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <input type="text" id="to" name="to" class="btn-fichas">      
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <div class="guests-select">
-                                                    <select class="btn-fichas">
-                                                        <option selected value="1">1 huésped</option>
-                                                        <option value="2">2 huespedes</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>      
-                                </div>
-                            </div>
-                            <hr class="line-gray">
-                            <div class="secciones-fila">
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-12 col-sm-12">
-                                        <div class="subtitle text-center">
-                                            <p>Tipo de habitación</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-9">
-                                        <div class="sm">
-                                            <div class="col-sm-4">
-                                                <div class="div-gray">
-                                                    <i class="fa fa-home"></i><span>Casa entera</span>
-                                                    <input type="checkbox">
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="div-gray">
-                                                    <span><i class="fa fa-sign-in"></i>Habitación privada</span>
-                                                    <input type="checkbox">
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="div-gray">
-                                                    <span>Habitación compartida</span>
-                                                    <input type="checkbox">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr class="line-gray">
-                            <div class="secciones-fila">
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <div class="subtitle">
-                                            <p>Rango de precios</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-9">
-                                        <div class="divRango">
-                                            <p>
-                                                <label for="amount">Rango de precios:</label>
-                                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                                            </p>
-                                            <div id="slider-range" class="slider-range"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr class="line-gray">
-                            <div class="secciones-fila">
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <div class="subtitle">
-                                            <p>Reserva inmediata</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-9">
-                                        <div class="publicity">
-                                            <span>Anuncios que no requieren que el anfitrión acepte la solicitud.</span>
-                                            <label></label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr class="line-gray">
+                    <div id="slider-range"></div>
+                    <hr> 
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <p>Reserva Inmediata</p> 
                         </div>
-                        <div class="container-advancedFilter">
-                            <div class="boton-advancedFilter">
-                                <button class="btn-filtros">Filtros</button>
-                                <hr class="line-gray">
-                                <div class="text-right col-sm-7"><strong>Más de 300 alquileres</strong></div>
+                        <div class="col-lg-8 col-md-8"><h5>Anuncios que no requieren que el anfitrión no acepte la solicitud</h5></div>
+                        <div class="collg-2 col-lg-md-2">
+                            <label class="checkbox-inline">
+                                <input type="checkbox" checked data-toggle="toggle">
+                            </label>      
+                        </div>
+                    </div> 
+                    <hr>  
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 boton-advancedFilter">
+                            <button class="btn-filtros">Filtros</button>
+                        </div>
+                        <div class="text-right col-lg-6"><strong>Más de 300 alquileres</strong></div>
+                    </div>
+                    <div class="row">
+                        <p>Introduce las fechas para ver el precio total. Ten en cuenta que se aplicarán tarifas adicionales y es posible que se añadan impuestos.</p>
+                    </div>
+                    <div class="contenedorDesaparece none secciones-fila row">
+                        <hr class="line-gray">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="subtitle text-center">
+                                    <p>Tipo de habitación</p>
+                                </div>
                             </div>
-                            <div class="option-advancedFilter">
-                                <div class="secciones-fila">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <p>Tamaño</p>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="row">
-                                                <div class="col-sm-4">
-                                                    <select class="btn-fichas">
-                                                        <option value="Habitaciones" selected="selected">Habitaciones</option>
-                                                        <option value="1 Habitación">1 Habitación</option>
-                                                        <option value="2 Habitación">2 Habitación</option>
-                                                        <option value="3 Habitación">3 Habitación</option>
-                                                        <option value="4 Habitación">4 Habitación</option>
-                                                        <option value="5 Habitación">5 Habitación</option>
-                                                        <option value="6 Habitación">6 Habitación</option>
-                                                        <option value="7 Habitación">7 Habitación</option>
-                                                        <option value="8 Habitación">8 Habitación</option>
-                                                        <option value="9 Habitación">9 Habitación</option>
-                                                        <option value="10 Habitación">10 Habitación</option>
-                                                    </select>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <select class="btn-fichas">
-                                                        <option value="Habitaciones" selected="selected">Baños</option>
-                                                        <option value="0-banos">0 Baños</option>
-                                                        <option value="0.5-banos">0.5 Baños</option>
-                                                        <option value="1-bano">1 Baño</option>
-                                                        <option value="1.5-banos">1.5 Baños</option>
-                                                        <option value="2-banos">2 Baños</option>
-                                                        <option value="2.5-banos">2.5 Baños</option>
-                                                        <option value="3-banos">3 Baños</option>
-                                                        <option value="3.5-banos">3.5 Baños</option>
-                                                        <option value="4-banos">4 Baños</option>
-                                                        <option value="4.5-banos">4.5 Baños</option>
-                                                        <option value="5-banos">5 Baños</option>
-                                                        <option value="5.5-banos">5.5 Baños</option>
-                                                        <option value="6-banos">6 Baños</option>
-                                                        <option value="6.5-banos">6.5 Baños</option>
-                                                        <option value="7-banos">7 Baños</option>
-                                                        <option value="7.5-banos">7.5 Baños</option>
-                                                        <option value="8-banos">8+ Baños</option>
-                                                    </select>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <select class="btn-fichas">
-                                                        <option value="Camas" selected="selected">Camas</option>
-                                                        <option value="1-camas">1 Cama</option>
-                                                        <option value="2-camas">2 Camas</option>
-                                                        <option value="3-camas">3 Camas</option>
-                                                        <option value="4-camas">4 Camas</option>
-                                                        <option value="5-camas">5 Camas</option>
-                                                        <option value="6-camas">6 Camas</option>
-                                                        <option value="7-camas">7 Camas</option>
-                                                        <option value="8-camas">8 Camas</option>
-                                                        <option value="9-camas">9 Camas</option>
-                                                        <option value="10-camas">10 Camas</option>
-                                                        <option value="11-camas">11 Camas</option>
-                                                        <option value="12-camas">12 Camas</option>
-                                                        <option value="13-camas">13 Camas</option>
-                                                        <option value="14-camas">14 Camas</option>
-                                                        <option value="15-camas">15 Camas</option>
-                                                        <option value="16-camas">16+ Camas</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="div-gray">
+                                    <i class="fa fa-home"></i><span>Casa entera</span>
+                                    <input type="checkbox">
                                 </div>
-                                <hr class="line-gray">
-                                <div class="secciones-fila">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <p>Opciones</p>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <form>
-                                                <input type="checkbox">
-                                                <img src="img/descarga.png" alt="img-option"><br>
-                                                <span>
-                                                    Quédate en casa de anfitriones excepcionales.
-                                                </span>
-                                                <a href="#">Más información</a>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="line-gray">
-                                <div class="secciones-fila">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <p>Servicios</p>
-                                        </div>
-                                        <div class="col-sm-8">
-                                            <div class="row">
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="wifi">Internet inalámbrico (Wifi)</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="tv">TV</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="cocina">Cocina</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                 <hr class="line-gray">
-                                <div class="secciones-fila">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <p>Servicios</p>
-                                        </div>
-                                        <div class="col-sm-8">
-                                            <div class="row">
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="wifi">Edificio con ascensor</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="tv">Gimnasio</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="cocina">Parking gratuito incluido</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="line-gray">
-                                <div class="secciones-fila">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <p>Normas de la casa</p>
-                                        </div>
-                                        <div class="col-sm-8">
-                                            <div class="row">
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="wifi">Admite Mascotas</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="tv">Apto para eventos</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="cocina">Apto para fumadores</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="line-gray">
-                                <div class="secciones-fila">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <p>Vecindarios</p>
-                                        </div>
-                                        <div class="col-sm-8">
-                                            <div class="row">
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                        <label><input type="checkbox" value="wifi">SoMa</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                        <label><input type="checkbox" value="tv">Missin District</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="cocina">Daly City</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="line-gray">
-                                <div class="secciones-fila">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <p>Idioma del Anfitrión</p>
-                                        </div>
-                                        <div class="col-sm-8">
-                                            <div class="row">
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="wifi">Español</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="tv">Englich District</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="checkbox">
-                                                    <label><input type="checkbox" value="cocina">Français</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
-                                        </div>
-                                    </div>  
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="div-gray">
+                                    <span><i class="fa fa-sign-in"></i>Habitación privada</span>
+                                    <input type="checkbox">
+                                </div>   
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="div-gray">
+                                    <span>Habitación compartida</span>
+                                    <input type="checkbox">
                                 </div>
                             </div>
                         </div>
+                        <hr>
+                        <div class="divRango row">
+                            <p>
+                                <label for="amount">Rango de precios:</label>
+                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                            </p>
+                        </div> 
+                        <div id="slider-range" class="slider-range"></div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <p>Reserva Inmediata</p> 
+                            </div>
+                            <div class="col-lg-8 col-md-8"><h5>Anuncios que no requieren que el anfitrión no acepte la solicitud</h5></div>
+                            <div class="col-lg-2 col-md-2">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" checked data-toggle="toggle">
+                                </label>      
+                            </div>
+                        </div>       
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <p>Tamaño</p>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-4">
+                                        <select class="btn-fichas">
+                                            <option value="Habitaciones" selected="selected">Habitaciones</option>
+                                            <option value="1 Habitación">1 Habitación</option>
+                                            <option value="2 Habitación">2 Habitación</option>
+                                            <option value="3 Habitación">3 Habitación</option>
+                                            <option value="4 Habitación">4 Habitación</option>
+                                            <option value="5 Habitación">5 Habitación</option>
+                                            <option value="6 Habitación">6 Habitación</option>
+                                            <option value="7 Habitación">7 Habitación</option>
+                                            <option value="8 Habitación">8 Habitación</option>
+                                            <option value="9 Habitación">9 Habitación</option>
+                                            <option value="10 Habitación">10 Habitación</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <select class="btn-fichas">
+                                            <option value="Habitaciones" selected="selected">Baños</option>
+                                            <option value="0-banos">0 Baños</option>
+                                            <option value="0.5-banos">0.5 Baños</option>
+                                            <option value="1-bano">1 Baño</option>
+                                            <option value="1.5-banos">1.5 Baños</option>
+                                            <option value="2-banos">2 Baños</option>
+                                            <option value="2.5-banos">2.5 Baños</option>
+                                            <option value="3-banos">3 Baños</option>
+                                            <option value="3.5-banos">3.5 Baños</option>
+                                            <option value="4-banos">4 Baños</option>
+                                            <option value="4.5-banos">4.5 Baños</option>
+                                            <option value="5-banos">5 Baños</option>
+                                            <option value="5.5-banos">5.5 Baños</option>
+                                            <option value="6-banos">6 Baños</option>
+                                            <option value="6.5-banos">6.5 Baños</option>
+                                            <option value="7-banos">7 Baños</option>
+                                            <option value="7.5-banos">7.5 Baños</option>
+                                            <option value="8-banos">8+ Baños</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <select class="btn-fichas">
+                                            <option value="Camas" selected="selected">Camas</option>
+                                            <option value="1-camas">1 Cama</option>
+                                            <option value="2-camas">2 Camas</option>
+                                            <option value="3-camas">3 Camas</option>
+                                            <option value="4-camas">4 Camas</option>
+                                            <option value="5-camas">5 Camas</option>
+                                            <option value="6-camas">6 Camas</option>
+                                            <option value="7-camas">7 Camas</option>
+                                            <option value="8-camas">8 Camas</option>
+                                            <option value="9-camas">9 Camas</option>
+                                            <option value="10-camas">10 Camas</option>
+                                            <option value="11-camas">11 Camas</option>
+                                            <option value="12-camas">12 Camas</option>
+                                            <option value="13-camas">13 Camas</option>
+                                            <option value="14-camas">14 Camas</option>
+                                            <option value="15-camas">15 Camas</option>
+                                            <option value="16-camas">16+ Camas</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="line-gray">
+                        <div class="row secciones-fila">
+                            <div class="col-sm-3 col-lg-3 ">
+                                <p>Opciones</p>
+                            </div>    
+                            <div class="col-sm-9 col-lg-9">
+                                <form>
+                                    <input type="checkbox">
+                                    <img src="img/descarga.png" alt="img-option"><br>
+                                    <span>
+                                        Quédate en casa de anfitriones excepcionales.
+                                    </span>
+                                    <a href="#">Más información</a>
+                                </form>
+                            </div>
+                        </div>
+                        <hr class="line-gray">
+                        <div class="row secciones-fila">
+                            <div class="col-sm-3 col-lg-3">
+                                <p>Servicios</p>
+                            </div>
+                            <div class="col-sm-8 col-lg-9">
+                                <div class="row">
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="wifi">Internet inalámbrico (Wifi)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="tv">TV</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="cocina">Cocina</label>
+                                            <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="line-gray">
+                        <div class="row secciones-fila">
+                            <div class="col-sm-3 col-lg-3">
+                                <p>Servicios</p>
+                            </div>
+                            <div class="col-sm-9 col-lg-9">
+                                <div class="row">
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="wifi">Edificio con ascensor</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="tv">Gimnasio</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="cocina">Parking gratuito incluido</label> <a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="line-gray">
+                        <div class="secciones-fila row">
+                            <div class="col-sm-3 col-lg-3">
+                                <p>Normas de la casa</p>
+                            </div>
+                            <div class="col-sm-9 col-lg-9">
+                                <div class="col-sm-4 col-lg-4">
+                                    <div class="checkbox">
+                                    <label><input type="checkbox" value="wifi">Admite Mascotas</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-lg-4">
+                                    <div class="checkbox">
+                                    <label><input type="checkbox" value="tv">Apto para eventos</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-lg-4">
+                                    <div class="checkbox">
+                                    <label><input type="checkbox" value="cocina">Apto para fumadores</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="line-gray">
+                        <div class="secciones-fila row">
+                            <div class="col-sm-4 col-lg-4">
+                                <p>Idioma del Anfitrión</p>
+                            </div>
+                            <div class="col-sm-8 col-lg-8">
+                                <div class="row">
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="wifi">Español</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="tv">Englich District</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox" value="cocina">Français</label><a href="#"><i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
                         <div class="btn-footer-pegajoso">
-                            <bottom class="footer-pegajoso transparent">Cancelar</bottom>
-                            <bottom class="footer-pegajoso pink">Aplicar filtros</bottom>
+                            <button class="footer-pegajoso transparent " type="button">Cancelar</button>
+                            <button class="footer-pegajoso pink " type="button">Aplicar filtros</button>
                         </div>
-                        <div class="container-results"></div>
                     </div>
-                    <div class="col-sm-5">
-                        <div id="mapa"></div>    
+                    <div class="container-results row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 habitacion">
+                            <div class="precio">{{precio}}</div> 
+                            <img src="images/habitaciones/mira7.jpg" class="habitacion-imagen"> 
+                            <div class="pad-imagen"><a href="hola">{{HOLAAA}}</a><div id="foto-circulo"></div></div>
+                            <div><p id="review">{{reviewwwwwwwwww}}</p><img src="images/star.png" class="width-star"></div>  
+                        </div>
                     </div>
                 </div>
-            </div>  
-        </section>
-        <section id="contenedor-depas">
+                <div class="col-lg-5 col-sm-5">
+                    <div class="mapa" id="mapa"></div>
+                        <ion-view view-title="Maps">
+                            <ion-content class="padding">
+                                <div class="list">
+                                    <ui-gmap-google-map center='map.center' zoom='map.zoom' draggable="true" options="options">
+                                        <ui-gmap-marker ng-repeat="marker in markers" coords="marker.coords" options="marker.options" events="markerEvents.events" idkey="marker.id" click="onMarkerClick">
+                                        </ui-gmap-marker>
+                                    </ui-gmap-google-map>
+                                </div>
+                            </ion-content>
+                        </ion-view>
+                    </div> 
+                </div> 
+            </div>
         </section>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjUOiiTvZvs4e7YzncoG4P1SGBcOKI10U" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
         <script type="text/javascript" src="javascripts/vendor/ui/jquery-ui.js"></script>
-        <script type="text/javascript" src="javascripts/script.js"></script>
         <script type="text/javascript" src="javascripts/app.js"></script>
     </body>
 </html>

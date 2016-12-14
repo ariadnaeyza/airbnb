@@ -145,4 +145,17 @@ header{
    top:55%;
    right:7%;
 }
+
+nav{
+   position: fixed;
+   z-index: 2;
+   width: 100%;
+   background: white;
+   margin: 0px;
+   top: 0; 
+}
+
+.mt{
+   margin-top: 41px;
+}
 //sin sass

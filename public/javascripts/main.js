@@ -6,13 +6,12 @@ var cargarPagina = function() {
 $(document).ready(cargarPagina);
 
 var distrito = localStorage.getItem("buscar");
-var busqueda = $("#busqueda").val();
 
 var scroll = function() {
 	$(window).scroll(function() {
 		var scrollPos = $(window).scrollTop(),
         navbar = $(".navbar-fixed-top");
-    	if (scrollPos > 30) {
+    	if (scrollPos > 10) {
       		navbar.css("background-color", "#FFF");
       		$("#busqueda").removeClass("ocultar");
     	} else {
@@ -23,6 +22,7 @@ var scroll = function() {
 };
 
 var buscar = function(e) {
+	var busqueda = $("#busqueda").val();
 	if (e.keyCode == 13) {
     	window.location.href = "home.html";
     	localStorage.setItem("buscar", busqueda);

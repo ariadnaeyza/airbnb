@@ -41,7 +41,7 @@
 							"Eventos": "false",
 							"fumadores": "true"
 						},
-						"Vecindario": ["Berlin", "Calle Berlin 965, Miraflores, Perú"]
+						"Vecindario": ["Berlin", ["-12.120104", "-77.039648"]]
 					}
 				},
 				{
@@ -83,7 +83,7 @@
 							"Eventos": "true",
 							"fumadores": "true"
 						},
-						"Vecindario": ["Malecon Cisneros", "MAlecon Cisneros 380, Miraflores"]
+						"Vecindario": ["Malecon Cisneros", ["-12.124605", "-77.037252"]]
 					}
 				},
 				{
@@ -125,7 +125,7 @@
 							"Eventos": "true",
 							"fumadores": "true"
 						},
-						"Vecindario": ["Aviación", "Avenida de la Aviación 678, Miraflores"]
+						"Vecindario": ["Aviación", ["-12.121693", "-77.040173"]]
 						}
 				},
 				{
@@ -167,7 +167,7 @@
 							"Eventos": "false",
 							"fumadores": "true"
 						},
-						"Vecindario": ["Pardo", "Avendida Jose Pardo 820, Miraflores"]
+						"Vecindario": ["Pardo", ["-12.118948", "-77.038886"]]
 					}
 				},
 				{
@@ -209,7 +209,7 @@
 							"Eventos": "false",
 							"fumadores": "false"
 						},
-						"Vecindario": ["Calle Berlin", "Calle Berlin 556, Miraflores"]
+						"Vecindario": ["Calle Berlin", ["-12.120089", "-77.035264"]]
 					}
 				}
 			]
@@ -255,7 +255,7 @@
 							"Eventos": "false",
 							"fumadores": "false"
 						},
-						"Vecindario": ["Berlin", " Calle Berlin 124, Miraflores"]
+						"Vecindario": ["Berlin", ["-12.122268", "-77.031666"]]
 					}
 				},
 				{
@@ -297,7 +297,7 @@
 							"Eventos": "false",
 							"fumadores": "false"
 						},
-						"Vecindario": ["Calle Madrid", "Calle Madrid 167, Miraflores"]
+						"Vecindario": ["Calle Madrid", ["-12.123285", "-77.036507"]]
 					}
 				},
 				{
@@ -339,7 +339,7 @@
 							"Eventos": "true",
 							"fumadores": "true"
 						},
-						"Vecindario": ["28 de Julio", "Av 28 de Julio 271, Miraflores"]
+						"Vecindario": ["28 de Julio", ["-12.125845", "-77.031988"]]
 					}
 				},
 				{

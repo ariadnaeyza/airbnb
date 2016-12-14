@@ -1,8 +1,8 @@
 var cargarPagina = function() {
-  /*$("#btn").click(sigt);*/
   autocompletar();
   initMap();
-  /*$("#btn").click(buscar);*/
+  $("#btn").click(buscar);
+  $(".btn-filtros").click(aparece);
 };
 
 var map = document.getElementById("mapa");
@@ -42,8 +42,45 @@ var ubicacion = function(result, status) {
       var marker = new google.maps.Marker(markerOption);
       marker.setMap(mapa);
     }
+  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        var icons = {
+          parking: {
+            icon: iconBase + 'parking_lot_maps.png'
+          },
+          library: {
+            icon: iconBase + 'library_maps.png'
+          },
+          info: {
+            icon: iconBase + 'info-i_maps.png'
+          }
 };
+//marker
+function addMarker(feature) {
+  var marker = new google.maps.Marker({
+    position: feature.position,
+    icon: icons[feature.type].icon,
+    map: map
+  });
+}
+var features = [
+    {
+      position: new google.maps.LatLng(-12.118974, -77035439),
+      type: 'info'
+    }, {
+      position: new google.maps.LatLng(-12.117575, -77.038598),
+      type: 'info'
+    }, {
+      position: new google.maps.LatLng(-33.91747, 151.22912),
+      type: 'info'
+    }, 
+];
 
+for (var i = 0, feature; feature = features[i]; i++) {
+  addMarker(feature);
+}
+}
+
+//marker
 var autocompletar = function() {
      
     $(function() {
@@ -138,3 +175,6 @@ var autocompletar = function() {
       source: availableTags
     });
 };
+var aparece=function(){
+  $(".contenedorDesaparece").removeClass("none");
+}

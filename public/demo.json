@@ -42,7 +42,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Berlin", ["-12.120104", "-77.039648"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion1.jpg"
 				},
 				{
 					"Precio":"s/.684",
@@ -84,7 +85,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Malecon Cisneros", ["-12.124605", "-77.037252"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion2.jpg"
 				},
 				{
 					"Precio": "s/.780",
@@ -126,7 +128,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Aviación", ["-12.121693", "-77.040173"]]
-						}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion3.jpg"
 				},
 				{
 					"Precio": "s/.352",
@@ -168,7 +171,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Pardo", ["-12.118948", "-77.038886"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion4.jpg"
 				},
 				{
 					"Precio":"s/.458",
@@ -210,7 +214,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Calle Berlin", ["-12.120089", "-77.035264"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion5.jpg"
 				}
 			]
 		},
@@ -256,7 +261,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Berlin", ["-12.122268", "-77.031666"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion6.jpg"
 				},
 				{
 					"Precio": "s/.136",
@@ -298,7 +304,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Calle Madrid", ["-12.123285", "-77.036507"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion7.jpg"
 				},
 				{
 					"Precio":"s/.72",
@@ -340,7 +347,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["28 de Julio", ["-12.125845", "-77.031988"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion8.jpg"
 				},
 				{
 					"Precio": "58",
@@ -382,7 +390,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Torre Tagle", ["-12.117575", "-77.038598"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion9.jpg"
 				},
 				{
 					"Precio": "bs/.51",
@@ -424,7 +433,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Elias Aguirre", ["-12.117389", "-77.034754"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion10.jpg"
 				}
 			]
 		},
@@ -469,7 +479,9 @@
 							"Eventos": "false",
 							"fumadores": "true"
 						},
-						"Vecindario": ["Jose Pardo", ["-12.118955","-77.036570"]]					}
+						"Vecindario": ["Jose Pardo", ["-12.118955","-77.036570"]]					
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion11.jpg"
 				},
 				{
 					"Precio": "s/.37",
@@ -511,7 +523,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Pardo", ["-12.118974", "-77035439"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion12.jpg"
 				},
 				{
 					"Precio": "s/.51",
@@ -553,7 +566,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Pardo", ["-12.119006", "-77.029915"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion13.jpg"
 				},
 				{
 					"Precio": "s/.34",
@@ -595,7 +609,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Enrique Palacios",["-12.116908", "77.035772"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion14.jpg"
 				},
 				{
 					"Precio": "s/.51",
@@ -637,7 +652,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Schell", ["-12.123112", "-77.027956"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion15.jpg"
 				}
 			]
 		}
@@ -685,7 +701,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Av Arequipa", ["-12.092573", "-77.033317"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion1.jpg"
 				},
 				{
 					"Precio": "s/.129",
@@ -727,7 +744,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Camino Real", ["-12.097392", "-77.036292"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion2.jpg"
 				},
 				{
 					"Precio": "s/109",
@@ -769,7 +787,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Jorge Basadre", ["-12.095250", "-77.040694"]]
-						}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion3.jpg"
 				},
 				{
 					"Precio": "s/.204",
@@ -811,7 +830,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Felipe Salaverry", ["-12.091410", "-77.052284"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion4.jpg"
 				},
 				{
 					"Precio":"s/.1363",
@@ -853,7 +873,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Jorge Basadre", ["-12.094786", "-77.037064"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion5.jpg"
 				}
 			]
 		},
@@ -899,7 +920,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["El Rosario", ["-12.095803", "-77.040176"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion6.jpg"
 				},
 				{
 					"Precio": "s/.55",
@@ -941,7 +963,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Santa Luisa", ["-12.096041", "-77.034998"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion7.jpg"
 				},
 				{
 					"Precio": "Bedroom for two w/private bathroom",
@@ -983,7 +1006,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Ollanta", ["-12.93366", "-77.033571"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion8.jpg"
 				},
 				{
 					"Precio": "s/.65",
@@ -1025,7 +1049,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Daniel Hernandez", ["-12.095380", "-77.033742"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion9.jpg"
 				},
 				{
 					"Precio": "s/.211",
@@ -1067,7 +1092,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Juan Arona", ["-12.097027", "-77.032433"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion10.jpg"
 				}
 			]
 		},
@@ -1113,7 +1139,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Paz Soldan", ["-12.096797","-77.034708"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion11.jpg"
 				},
 				{
 					"Precio": "s/.170",
@@ -1155,7 +1182,8 @@
 							"fumadores": "true"
 						},
 						"Vecindario": ["Andres Reyes", ["-12.094426", "-77.029762"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion12.jpg"
 				},
 				{
 					"Precio": "s/.37",
@@ -1197,7 +1225,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Federico Villareal", ["-12.095768","-77.031232"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion13.jpg"
 				},
 				{
 					"Precio": "s/.37",
@@ -1239,7 +1268,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Manuel Fuentes", ["-12.098097", "-77.030406"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion14.jpg"
 				},
 				{
 					"Precio": "s/.119",
@@ -1281,7 +1311,8 @@
 							"fumadores": "false"
 						},
 						"Vecindario": ["Felipe Villarán", ["-12.096985", "-77.029472"]]
-					}
+					},
+					"Foto": "../images/habitaciones/habitaciones/habitacion15.jpg"
 				}
 			]
 		}

@@ -13,9 +13,6 @@ nav{
 		height: 100%;
 		background-size: cover;
 	}
-	.img-slider{
-		
-	}
 	div .slider-uno{
 		background-image: url("../images/slider/1-slider.jpg");
 		h1{
@@ -187,26 +184,13 @@ footer{
     		display: block;
 		}
 	}
-	.btn-footer-pegajoso{
-		.footer-pegajoso{
-			width: 100%;
-			padding: 8px 60px;
-    		font-size: 14px;
-    		border-radius: 4px;
-    		border: 1px solid $colorGrisClaro;
-    		text-align: center;
-    		vertical-align: middle;
-    		font-weight: bold;
-		}
-		.transparent{
-				border-color: $colorGrisClaro;
-    			color: $colorGrisOscuro;
-    			background: white;
-		}
-		.pink{
-			border-color: $colorRosa;
-			background-color: $colorRosa;
-			color: $fondoBlanco;
-		}
-	}
+	
 }
+.inline-buscador{
+	display:inline-block;
+}
+.navbar-header{
+	width:50%;
+}
+
+

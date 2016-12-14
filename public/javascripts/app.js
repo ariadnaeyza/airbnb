@@ -2,9 +2,10 @@ var template= "<div>{{titulo}}</div>"
 var templateDivs= "";
 
 var cargarPagina = function() {
-    autocompletar();
-    initMap();
-    $("#btn").click(buscar);
+  autocompletar();
+  initMap();
+  $("#btn").click(buscar);
+  $(".btn-filtros").click(aparece);
 };
 
 var map = document.getElementById("mapa");
@@ -113,9 +114,45 @@ var loop = function(c,d){
     for(var i = 0; i < 5; i ++){
         templateDivs += c.replace("{{titulo}}", d[i].Descripción.titulo);
     }
+  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        var icons = {
+          parking: {
+            icon: iconBase + 'parking_lot_maps.png'
+          },
+          library: {
+            icon: iconBase + 'library_maps.png'
+          },
+          info: {
+            icon: iconBase + 'info-i_maps.png'
+          }
 };
+//marker
+function addMarker(feature) {
+  var marker = new google.maps.Marker({
+    position: feature.position,
+    icon: icons[feature.type].icon,
+    map: map
+  });
+}
+var features = [
+    {
+      position: new google.maps.LatLng(-12.118974, -77035439),
+      type: 'info'
+    }, {
+      position: new google.maps.LatLng(-12.117575, -77.038598),
+      type: 'info'
+    }, {
+      position: new google.maps.LatLng(-33.91747, 151.22912),
+      type: 'info'
+    }, 
+];
+
+for (var i = 0, feature; feature = features[i]; i++) {
+  addMarker(feature);
+}
 
 var autocompletar = function() {   
+
     $(function() {
         var dateFormat = "mm/dd/yy",
         from = $("#from")
@@ -208,6 +245,10 @@ var autocompletar = function() {
       source: availableTags
     });
 };
+var aparece=function(){
+  $(".contenedorDesaparece").removeClass("none");
+}
+
 
 var addMarker = function(position, map) {
     var markerOption = { position: position }
@@ -221,3 +262,4 @@ var addMarkers = function() {
         addMarker(location, map);
     }
 };
+

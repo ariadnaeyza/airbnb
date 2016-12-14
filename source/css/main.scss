@@ -1,11 +1,17 @@
 @import "variables";
+nav{
+	position:fixed;
+	width:100%;
+	z-index: 2;
+}
 .slider{
 	position: relative;
 	top:0;
-	height: 100%;
+	height: 550px;
 	div .item {
 		width: 100%;
-		height: 480px;
+		height: 100%;
+		background-size: cover;
 	}
 	div .slider-uno{
 		background-image: url("../images/slider/1-slider.jpg");
@@ -58,6 +64,12 @@
 	}
 	div .slider-cuatro{
 		background-image: url("../images/slider/4-slider.jpg");
+	}
+	#carousel-example-generic{
+		height: 100%;
+		.carousel-inner{
+			height: 100%;
+		}
 	}
 }
 .destinos-destacados{

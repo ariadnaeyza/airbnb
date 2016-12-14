@@ -186,9 +186,13 @@ footer{
 		}
 	}
 }
-
-
-#mapa{
+.inline-buscador{
+	display:inline-block;
+}
+.navbar-header{
+	width:50%;
+}
+.mapa{
 	height:80px;
 	width: 100%;
 }

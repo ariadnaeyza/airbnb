@@ -153,38 +153,12 @@ footer img {
   background-color: #ff7e82;
   color: #FFFFFF; }
 
-#mapa {
+.inline-buscador {
+  display: inline-block; }
+
+.navbar-header {
+  width: 50%; }
+
+.mapa {
   height: 80px;
   width: 100%; }
-
-.habitacion {
-  height: 350px;
-  position: relative; }
-
-.habitacion-imagen {
-  width: 100%;
-  position: relative; }
-
-.precio {
-  background-color: black;
-  color: white;
-  position: absolute;
-  top: 35%;
-  width: 20%;
-  height: 40px; }
-
-.pad-imagen {
-  margin: 2% 1%; }
-
-.width-star {
-  width: 10%; }
-
-#foto-circulo {
-  border-radius: 50%;
-  width: 20%;
-  height: 70px;
-  background-color: yellow;
-  border: 2px solid white;
-  position: absolute;
-  top: 55%;
-  right: 7%; }

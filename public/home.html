@@ -449,12 +449,22 @@
                             <bottom class="footer-pegajoso transparent">Cancelar</bottom>
                             <bottom class="footer-pegajoso pink">Aplicar filtros</bottom>
                         </div>
-                        
+
                         <div class="container-results"></div>
                     </div>
                     <div class="col-lg-5">
-                        <div id="mapa"></div>
-                        <div class="map-marker" style="position: absolute; overflow: hidden; opacity: 0.01; margin-left: 0px; margin-top: 0px; left: 267px; top: 237px; z-index: 238; display: block; cursor: pointer;" onselectstart="return false;" ondragstart="return false;" title="">
+                        <div class="mapa" id="mapa"></div>
+                        <ion-view view-title="Maps">
+                            <ion-content class="padding">
+                                <div class="list">
+                                    <ui-gmap-google-map center='map.center' zoom='map.zoom' draggable="true" options="options">
+                                        <ui-gmap-marker ng-repeat="marker in markers" coords="marker.coords" options="marker.options" events="markerEvents.events" idkey="marker.id" click="onMarkerClick">
+                                        </ui-gmap-marker>
+                                    </ui-gmap-google-map>
+                                </div>
+                            </ion-content>
+                        </ion-view>
+                       <!--  <div class="map-marker" style="position: absolute; overflow: hidden; opacity: 0.01; margin-left: 0px; margin-top: 0px; left: 267px; top: 237px; z-index: 238; display: block; cursor: pointer;" onselectstart="return false;" ondragstart="return false;" title="">
                         <div class="tooltip tooltip-bottom-middle tooltip-layout tooltip-primary">
                         <div class="price-marker__label">
                           <div class="price-label">
@@ -463,14 +473,14 @@
                           </div>
                         </div>
                         </div>
-                        </div>    
+                        </div>    --> 
                     </div>
                 </div>
             </div>  
         </section>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIn7xOEnXRaj3wgbEIDQ5LH4GJ9ADZI8s&libraries=places"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChJ65wsaMhPRFc_5jB3EZbC2_ITqIgpTU&signed_in=true&callback=initMap" async defer></script>
         <script type="text/javascript" src="javascripts/vendor/ui/jquery-ui.js"></script>
         <script type="text/javascript" src="javascripts/app.js"></script>
     </body>

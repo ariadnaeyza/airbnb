@@ -6,3 +6,22 @@
     color: $colorGrisOscuro;
     padding: 8px 10px;
 }
+header{
+   margin-bottom: 20px;
+   nav{
+      border-bottom: 1px solid $colorGrisClaro;
+   }
+   .nav > li > a:focus, header .nav > li > a:hover {
+      background-color: transparent;
+      color: black; 
+   }
+   .navbar-header{
+      border-right: 1px solid $colorGrisClaro;
+   }
+   img {
+      width: 30px; 
+   }
+   a {
+      color: black; 
+   }
+}

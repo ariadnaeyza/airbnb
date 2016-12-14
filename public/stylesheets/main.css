@@ -54,6 +54,9 @@
 .destinos-destacados .img-destino {
   width: 100%; }
 
+.destinos-destacados p {
+  font-weight: bold; }
+
 .experiencias-solidarias h3 {
   font-size: 18px;
   margin-bottom: 18px;

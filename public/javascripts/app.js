@@ -271,11 +271,12 @@ var autocompletar = function() {
 $("#cancelar").click(function(){
    $(".contenedorDesaparece").addClass("none");
    $(".aparece1").removeClass("none");
+   desaparecer()
 });
 var aparece = function() {
     $(".contenedorDesaparece").removeClass("none");
     $("#contenedor-depas").addClass("none")
-  desaparecer()
+  
 };
 
 var desaparecer=function(){

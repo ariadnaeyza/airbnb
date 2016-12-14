@@ -106,9 +106,9 @@ header{
       }
    }
 //sin sass
-.none{
-   display:none;
-}
+// .none{
+//    display:none;
+// }
 .habitacion{
    height:350px;
    position:relative;
@@ -139,5 +139,8 @@ header{
    position:absolute;
    top:55%;
    right:7%;
+}
+.contenedorDesaparece{
+   overflow: scroll;
 }
 //sin sass

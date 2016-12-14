@@ -1,5 +1,7 @@
+var template= "<div>{{titulo}}</div>"
+var templateDivs= "";
+
 var cargarPagina = function() {
-  /*$("#btn").click(sigt);*/
   autocompletar();
   initMap();
   $("#btn").click(buscar);
@@ -24,8 +26,48 @@ var initMap = function() {
 var buscar = function(e) {
     e.preventDefault();
     var busqueda = $("#tags").val();
-    var geocoder = new google.maps.Geocoder();
-    geocoder.geocode({ "address": busqueda} , ubicacion);
+
+    if(busqueda.trim().length > 0){
+      var geocoder = new google.maps.Geocoder();
+      geocoder.geocode({ "address": busqueda} , ubicacion);
+      if(busqueda === "Miraflores"){
+        templateDivs= ""; 
+        $.get("/demo.json", function(response){
+          $.each(response.miraflores, function(indice, response){
+            if( indice == 0){
+              loop(template, response.CasaEntera);
+            } else if(indice == 1){
+              loop(template, response.HabitacionPrivada);
+            } else{
+              loop(template, response.HabitacionCompartida);
+            }
+          });
+          $("#contenedor-depas").html(templateDivs);
+        });
+      } else if(busqueda === "San Isidro"){
+        templateDivs= "";        
+        $.get("/demo.json", function(response){
+          $.each(response.SanIsidro, function(indice, response){
+            if( indice == 0){
+              loop(template, response.CasaEntera);
+            } else if(indice == 1){
+              loop(template, response.HabitacionPrivada);
+            } else{
+              loop(template, response.HabitacionCompartida);
+            }
+          });
+          $("#contenedor-depas").html(templateDivs);
+        });
+      } else{
+        $("#contenedor-depas").html("<h2> No se encontraron Resultados </h2>");
+      }
+    }
+};
+
+var loop = function(c,d){
+  for(var i = 0; i < 5; i ++){
+    templateDivs += c.replace("{{titulo}}", d[i].Descripción.titulo);
+  }
 };
 
 var ubicacion = function(result, status) {
@@ -34,7 +76,6 @@ var ubicacion = function(result, status) {
           center: result[0].geometry.location,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
       };
-      console.log(result);
       var mapa = new google.maps.Map(document.getElementById("mapa"), posMapa);
       mapa.fitBounds(result[0].geometry.viewport);
 

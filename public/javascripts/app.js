@@ -8,6 +8,49 @@ var cargarPagina = function() {
 };
 
 var map = document.getElementById("mapa");
+var marcadores = [{
+        latitud: "-12.120104",
+        longitud: "-77.039648"},
+        {latitud: "-12.124605",
+        longitud: "-77.037252"},
+        {latitud: "-12.118948",
+        longitud: "-77.038886"},
+        {latitud: "-12.120089",
+        longitud: "-77.035264"},
+        {latitud: "-12.122268",
+        longitud: "-77.031666"},
+        {latitud: "-12.123285",
+        longitud: "-77.036507"},
+        {latitud: "-12.125845",
+        longitud: "-77.031988"},
+        {latitud: "-12.117575",
+        longitud: "-77.038598"},
+        {latitud: "-12.117389",
+        longitud: "-77.034754"},
+        {latitud: "-12.117389",
+        longitud: "-77.034754"},
+        {latitud: "-12.118955",
+        longitud: "-77.036570"},
+        {latitud: "-12.118974",
+        longitud: "-77035439"},
+        {latitud: "-12.119006",
+        longitud: "-77.029915"},
+        {latitud: "-12.116908",
+        longitud: "-77.035772"},
+        {latitud: "-12.123112",
+        longitud: "-77.027956"},
+        {latitud: "-12.092573",
+        longitud: "-77.033317"},
+        {latitud: "-12.097392",
+        longitud: "-77.036292"},
+        {latitud: "-12.095250",
+        longitud: "-77.040694"},
+        {latitud: "-12.091410",
+        longitud: "-77.052284"},
+        {latitud: "-12.094786",
+        longitud: "-77.037064"},
+        {latitud: "-12.121693",
+        longitud: "-77.040173"}];
 
 $(document).ready(cargarPagina);
 
@@ -21,6 +64,7 @@ var initMap = function() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(map, myOptions);
+    addMarkers();
 };
 
 var buscar = function(e) {
@@ -79,9 +123,10 @@ var ubicacion = function(result, status) {
       var mapa = new google.maps.Map(document.getElementById("mapa"), posMapa);
       mapa.fitBounds(result[0].geometry.viewport);
 
-      var markerOption = { position: result[0].geometry.location }
-      var marker = new google.maps.Marker(markerOption);
-      marker.setMap(mapa);
+      addMarker(result[0].geometry.location, mapa);
+      // var markerOption = { position: result[0].geometry.location }
+      // var marker = new google.maps.Marker(markerOption);
+      // marker.setMap(mapa);
     }
 };
 
@@ -178,4 +223,17 @@ var autocompletar = function() {
     $( "#tags" ).autocomplete({
       source: availableTags
     });
+};
+
+var addMarker = function(position, map) {
+    var markerOption = { position: position }
+    var marker = new google.maps.Marker(markerOption);
+    marker.setMap(map);
+};
+
+var addMarkers = function() { 
+    for (var i = 0; i < marcadores.length; i++) {
+        var location = new google.maps.LatLng(marcadores[i].latitud, marcadores[i].longitud);
+        addMarker(location, map);
+    }
 };

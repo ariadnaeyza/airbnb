@@ -3,6 +3,9 @@ body{
    color: #484848;
    padding-left:1%;
 }
+.row1{
+   margin-top: 2%;
+}
 .btn-fichas{
 	border-radius: 2px;
     background-color: $fondoBlanco;
@@ -176,4 +179,21 @@ nav{
 .mt{
    margin-top: 41px;
 }
+.filtro-boton{
+    width: 30%;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #484848;
+    padding: 8px 12px;
+    border: 1px solid #484848;
+    text-align: center;
+ }
+ .checks{
+   height: 1.25em;
+    width: 1.25em;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #484848;
+    cursor: pointer;
+ }
 //sin sass

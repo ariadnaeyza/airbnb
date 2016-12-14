@@ -276,7 +276,7 @@ $("#cancelar").click(function(){
 var aparece = function() {
     $(".contenedorDesaparece").removeClass("none");
     $("#contenedor-depas").addClass("none")
-  
+    $(".aparece1").addClass("none");
 };
 var addMarker = function(position, map) {
     /*var infowindow = new google.maps.InfoWindow();*/

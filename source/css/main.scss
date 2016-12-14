@@ -31,20 +31,26 @@
 	}
 	div .slider-dos, .slider-tres, .slider-cuatro{
 		h1{
-			color: $colorGrisClaro; 
+			color: $colorGrisOscuro; 
 			font-weight: bold;
+			position: relative;
+    		bottom: 250px;
 		}
 		p{
-			color: $colorGrisClaro;
+			color: $colorGrisOscuro;
+			position: relative;
+    		bottom: 250px;
 		}
 		.btn-slider{
 			background-color: transparent;
-			color: $colorGrisClaro;
+			color: $colorGrisOscuro;
 			border-radius: 64px;
 		    border: 2px solid;
 		    border-color: rgba(72, 72, 72, 0.3);
 		    padding: 8px 24px 9px;
 		    cursor: pointer;
+		    position: relative;
+    		bottom: 250px;
 		}
 	}
 	div .slider-dos, .slider-tres, .slider-cuatro{
@@ -61,7 +67,7 @@
 	h3{
 		font-size: 18px;
 		margin-bottom: 18px;
-		color: $colorGrisClaro;
+		color: $colorGrisOscuro;
 	}
 	.img-destino{
 		width: 100%;
@@ -72,7 +78,7 @@
 	h3{	
 		font-size: 18px;		
 		margin-bottom: 18px;
-		color: $colorGrisClaro;
+		color: $colorGrisOscuro;
 	}
 	.img-experiencias{
 		width: 100%;

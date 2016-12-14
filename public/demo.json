@@ -1,5 +1,5 @@
 {
-	"Miraflores":[
+	"miraflores":[
 		{
 			"CasaEntera": [
 				{
@@ -34,7 +34,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -76,7 +76,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -118,7 +118,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -160,7 +160,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -202,7 +202,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -212,7 +212,9 @@
 						"Vecindario": ["Calle Berlin", "Calle Berlin 556, Miraflores"]
 					}
 				}
-			],
+			]
+		},
+		{
 			"HabitacionPrivada":[
 				{
 					"Precio": "s/.75",
@@ -246,7 +248,7 @@
 							"Secadora":"false",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -288,7 +290,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -330,7 +332,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -372,7 +374,7 @@
 							"Secadora":"false",
 							"TVSatelite": "true",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -414,7 +416,7 @@
 							"Secadora":"false",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -424,7 +426,9 @@
 						"Vecindario": ["Elias Aguirre", ["-12.117389", "-77.034754"]]
 					}
 				}
-			],
+			]
+		},
+		{
 			"HabitacionCompartida": [
 				{
 					"Precio": "34",
@@ -458,7 +462,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -499,7 +503,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -541,7 +545,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -583,7 +587,7 @@
 							"Secadora":"false",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -625,7 +629,7 @@
 							"Secadora":"false",
 							"TVSatelite": "true",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -673,7 +677,7 @@
 							"Secadora":"true",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -715,7 +719,7 @@
 							"Secadora":"true",
 							"TVSatelite": "false",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -757,7 +761,7 @@
 							"Secadora": "false",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -799,7 +803,7 @@
 							"Secadora":"true",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -841,7 +845,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -851,7 +855,9 @@
 						"Vecindario": ["Jorge Basadre", ["-12.094786", "-77.037064"]]
 					}
 				}
-			],
+			]
+		},
+		{
 			"HabitacionPrivada":[
 				{
 					"Precio": "s/.92",
@@ -885,7 +891,7 @@
 							"Secadora":"true",
 							"TVSatelite": "true",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -927,7 +933,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -969,7 +975,7 @@
 							"Secadora":"true",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -1011,7 +1017,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -1053,7 +1059,7 @@
 							"Secadora":"false",
 							"TVSatelite": "true",
 							"Timbre": "true",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -1063,7 +1069,9 @@
 						"Vecindario": ["Juan Arona", ["-12.097027", "-77.032433"]]
 					}
 				}
-			],
+			]
+		},
+		{
 			"HabitacionCompartida": [
 				{
 					"Precio": "s/.51",
@@ -1097,7 +1105,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -1139,7 +1147,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "true",
@@ -1181,7 +1189,7 @@
 							"Secadora":"false",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -1223,7 +1231,7 @@
 							"Secadora":"false",
 							"TVSatelite": "true",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "false",
+							"ZonaTrabajoPortaatiles": "false"
 						},
 						"Normas": {
 							"mascotas": "false",
@@ -1265,7 +1273,7 @@
 							"Secadora":"true",
 							"TVSatelite": "false",
 							"Timbre": "false",
-							"ZonaTrabajoPortaatiles": "true",
+							"ZonaTrabajoPortaatiles": "true"
 						},
 						"Normas": {
 							"mascotas": "false",

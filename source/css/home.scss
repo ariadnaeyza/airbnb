@@ -106,9 +106,9 @@ header{
       }
    }
 //sin sass
-// .none{
-//    display:none;
-// }
+.none{
+   display:none;
+}
 .habitacion{
    height:350px;
    position:relative;
@@ -140,7 +140,22 @@ header{
    top:55%;
    right:7%;
 }
-.contenedorDesaparece{
-   overflow: scroll;
+.sinpa{
+   padding:0;
+}
+.imagen{
+   width: 10%;
+   margin-right: 10%;
+}
+.padding{
+   background-color:#EDEFED;
+}
+.width-form{
+   width: 20%;
+   display: inline-block;
+}
+.overflow{
+   overflow-y: scroll;
+   height: 662px;
 }
 //sin sass

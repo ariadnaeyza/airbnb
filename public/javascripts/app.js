@@ -1,4 +1,11 @@
-var template= "<div>{{titulo}}</div>"
+var template= '<div class="col-lg-6 col-md-6 col-sm-12 habitacion">'+
+                  '<div class="precio">{{precio}}</div> '+
+                  '<div class="contenedor-imagen">'+
+                    '<img src="{{image}}" class="habitacion-imagen">'+
+                  '</div>'+
+                  '<div class="pad-imagen"><a href="hola">{{titulo}}</a></div>'+
+                  '<div><p id="review">{{review}}</p><img src="images/star.png" class="width-star"></div>'+ 
+              '</div>';
 var templateDivs= "";
 
 var cargarPagina = function() {
@@ -159,7 +166,11 @@ var buscar = function(e) {
 
 var loop = function(c,d){
     for(var i = 0; i < 5; i ++){
-        templateDivs += c.replace("{{titulo}}", d[i].Descripción.titulo);
+        templateDivs += c
+              .replace("{{titulo}}", d[i].Descripción.titulo)
+              .replace("{{precio}}", d[i].Precio)
+              .replace("{{review}}", "Casa/apto. entero")
+              .replace("{{image}}", d[i].Foto);
     }
 };
 
